@@ -40,8 +40,6 @@ export default function(root, data) {
 		.insert('path')
 		.attr('class', (d, idx) => `slice -color-${idx}`)
 		.attr('d', d => arc(d))
-		.exit()
-		.remove()
 
 	// Labels
 
@@ -64,9 +62,6 @@ export default function(root, data) {
 			]})`
 		)
 		.attr('text-anchor', d => midAngle(d) < Math.PI ? 'start' : 'end')
-		.exit()
-		.remove()
-
 
 	// Label-lines
 
@@ -84,8 +79,6 @@ export default function(root, data) {
 				outerArc.centroid(d)[1]
 			]
 		])
-		.exit()
-		.remove()
 
 	return svg
 }
