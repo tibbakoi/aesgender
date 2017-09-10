@@ -14,8 +14,9 @@ let data = unprocessed_data.map(d => ({
 	...d,
 }))
 
+const genders = ['Unknown', 'Male', 'Female', 'Non-binary']
+
 document.addEventListener('DOMContentLoaded', _ => {
-	const genders = ['Unknown', 'Male', 'Female', 'Non-binary']
 
 	const $results = d3.select("#results")
 	$results.selectAll("*").remove()
@@ -27,19 +28,22 @@ document.addEventListener('DOMContentLoaded', _ => {
 		})
 	))
 
-	const topics = uniq(data.map(d => d.Topic))
-	bar($results, topics.map(
+	bar($results, data_grouped_by_selector('Topic'))
+	bar($results, data_grouped_by_selector('Year'))
+	bar($results, data_grouped_by_selector('Grouped Type'))
+})
+
+function data_grouped_by_selector(selector) {
+	return uniq(data.map(d => d[selector])).map(
 		label => ({
 			label,
 			value: zipObject(
 				genders,
-				genders.map(g => data.filter(d => d.Topic === label && d.Gender === g).length)
+				genders.map(g => data.filter(d => d[selector] === label && d.Gender === g).length)
 			)
 		})
-	))
-
-
-})
+	)
+}
 
 function decode_pronoun_to_label(pronoun) {
 	return ({
