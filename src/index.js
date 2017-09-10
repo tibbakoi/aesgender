@@ -17,19 +17,18 @@ let data = unprocessed_data.map(d => ({
 document.addEventListener('DOMContentLoaded', _ => {
 	const genders = ['Unknown', 'Male', 'Female', 'Non-binary']
 
-	d3.select("#results").selectAll("*").remove()
+	const $results = d3.select("#results")
+	$results.selectAll("*").remove()
 	
-	donut(d3.select('#results'), genders.map(
+	donut($results, genders.map(
 		label => ({
 			label,
-			value: data
-				.filter(d => label === d.Gender)
-				.length
+			value: data.filter(d => label === d.Gender).length
 		})
 	))
 
 	const topics = uniq(data.map(d => d.Topic))
-	bar(d3.select('#results'), topics.map(
+	bar($results, topics.map(
 		label => ({
 			label,
 			value: zipObject(
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', _ => {
 			)
 		})
 	))
+
+
 })
 
 function decode_pronoun_to_label(pronoun) {
