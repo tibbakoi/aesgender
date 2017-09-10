@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 import {sum, values, uniq, flatMap, keys, sortBy} from 'lodash'
 
 export default function(root, data) {
-	const w = 400, h = 400
+	const w = 400, h = data.length * 30
 
 	var svg = root.append('svg')
 		.attr('width', w*2)
