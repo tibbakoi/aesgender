@@ -1,10 +1,18 @@
 import * as d3   from 'd3'
 import donut     from './donut.js'
 import bar       from './bar.js'
-import data      from '../data/anonymised.csv'
-import {uniq, map}  from 'lodash'
+import {uniq, map, groupBy, zipObject}
+                 from 'lodash'
 
-console.log(data);
+import unprocessed_data from '../data/anonymised.csv'
+
+console.log('unp', unprocessed_data)
+
+// Add normalized gender field
+let data = unprocessed_data.map(d => ({
+	'Gender': decode_pronoun_to_label(d.Pronoun),
+	...d,
+}))
 
 document.addEventListener('DOMContentLoaded', _ => {
 	const labels = ['Unknown', 'Male', 'Female', 'Non-binary']
@@ -15,7 +23,7 @@ document.addEventListener('DOMContentLoaded', _ => {
 		label => ({
 			label,
 			value: data
-				.filter(d => label === decode_pronoun_to_label(d.Pronoun))
+				.filter(d => label === d.Gender)
 				.length
 		})
 	))
@@ -24,10 +32,10 @@ document.addEventListener('DOMContentLoaded', _ => {
 	bar(d3.select('#results'), topics.map(
 		topic => ({
 			'Title': topic,
-			'Unknown': data.filter(d => d.Topic === topic && 'Unknown' == decode_pronoun_to_label(d.Pronoun)).length,
-			'Male':data.filter(d => d.Topic === topic && 'Male' == decode_pronoun_to_label(d.Pronoun)).length,
-			'Female':data.filter(d => d.Topic === topic && 'Female' == decode_pronoun_to_label(d.Pronoun)).length,
-			'Non-binary':data.filter(d => d.Topic === topic && 'Non-binary' == decode_pronoun_to_label(d.Pronoun)).length 
+			...zipObject(
+				labels,
+				labels.map(label => data.filter(d => d.Topic === topic && d.Gender === label).length)
+			)
 		})
 	))
 })
