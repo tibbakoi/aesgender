@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import {sum, values} from 'lodash'
+import {sum, values, uniq, flatMap, keys} from 'lodash'
 
 export default function(root, data) {
 	const w = 400, h = 400
@@ -19,7 +19,8 @@ export default function(root, data) {
 	var x = d3.scaleLinear()
 		.rangeRound([0, w])
 
-	data.columns = ['Male', 'Unknown', 'Non-binary', 'Female']
+	data.columns = uniq(flatMap(data, d => keys(d.value)))
+	console.log('data.columns', data.columns)
 
 	var stack = d3.stack()
 		.offset(d3.stackOffsetExpand)
