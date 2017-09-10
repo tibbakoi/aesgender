@@ -6,8 +6,6 @@ import {uniq, zipObject}
 
 import unprocessed_data from '../data/anonymised.csv'
 
-console.log('unp', unprocessed_data)
-
 // Add normalized gender field
 let data = unprocessed_data.map(d => ({
 	'Gender': decode_pronoun_to_label(d.Pronoun),
