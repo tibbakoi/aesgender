@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', _ => {
 
 	const $results = d3.select("#results")
 	$results.selectAll("*").remove()
-	
+
+	// Fig. 2 Overall gender composition across dataset.
 	donut($results, genders.map(
 		label => ({
 			label,
@@ -28,9 +29,15 @@ document.addEventListener('DOMContentLoaded', _ => {
 		})
 	))
 
+	// Fig 3. Gender composition of AES conference across each year, where the number on the right is the population size for each year.
 	bar($results, data_grouped_by_selector('Topic'))
+	// Fig. 4 Gender composition across conference topics, where the number on the right is the population size for each topic.
 	bar($results, data_grouped_by_selector('Year'))
+	// Fig 5. Gender composition across the different presentation types, where the asterisk indicates an ‘invited’ paper and number on the right is the population size for each presentation type.
 	bar($results, data_grouped_by_selector('Grouped Type'))
+
+	// Fig. 6 Gender composition across relative author positions in presentations where the number on the right is the population size for each author position.
+	// Fig. 7 Gender composition of single authors vs multi-authored presentations across all conferences, where the number on the right is the population size for each authorship type.
 })
 
 function data_grouped_by_selector(selector) {
