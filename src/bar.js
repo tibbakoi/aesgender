@@ -1,8 +1,7 @@
 import * as d3 from 'd3'
+import {sum, values} from 'lodash'
 
 export default function(root, data) {
-	console.log('databar', data)
-
 	const w = 400, h = 400
 
 	var svg = root.append('svg')
@@ -20,30 +19,31 @@ export default function(root, data) {
 	var x = d3.scaleLinear()
 		.rangeRound([0, w])
 
+	data.columns = ['Male', 'Unknown', 'Non-binary', 'Female']
+
 	var stack = d3.stack()
 		.offset(d3.stackOffsetExpand)
-
-	data.columns = ['Title', 'Male', 'Unknown', 'Non-binary', 'Female']
+		.keys(data.columns)
 
 	let sort_by = 'Female'
 
 	function total(d) {
-		return d['Male'] + d['Female'] + d['Unknown'] + d['Non-binary']
+		return sum(values(d.value))
 	}
 
 	function sort(a, b) {
 		const idx = data.columns.indexOf(sort_by)
-		return -(b[data.columns[idx]] / total(b) - a[data.columns[idx]] / total(a))
+		return -(b.value[data.columns[idx]] / total(b) - a.value[data.columns[idx]] / total(a))
 	}
 
 	data.sort(sort)
 
-	y.domain(data.map(d => d.Title))
+	y.domain(data.map(d => d.label))
 
 	// Series
 
 	let serie = g.selectAll('.serie')
-		.data(stack.keys(data.columns.slice(1))(data))
+		.data(stack(data.map(d => d.value)))
 		.enter()
 		.append('g')
 		.attr('class', (d, idx) => `serie -color-${idx}`)
@@ -58,7 +58,7 @@ export default function(root, data) {
 		.style('opacity', 0)
 
 	series_rect
-		.attr('y', d => y(d.data.Title))
+		.attr('y', (_, idx) => y(data[idx].label))
 		.attr('x', d => -x(d[1]))
 		.attr('width', d => - (x(d[0]) - x(d[1])))
 		.attr('height', y.bandwidth())
@@ -69,7 +69,7 @@ export default function(root, data) {
 			rect.classed('-hover', true)
 
 			tip
-				.html(`<strong>${key}</strong>  ${Math.round((d[1] - d[0]) * 100)}% <span class="fraction"><span class="numerator">${data[idx][key]}</span><span class="symbol">/</span><span class="denominator">${total(data[idx])}</span></span>`)
+				.html(`<strong>${key}</strong>  ${Math.round((d[1] - d[0]) * 100)}% <span class="fraction"><span class="numerator">${data[idx].value[key]}</span><span class="symbol">/</span><span class="denominator">${total(data[idx])}</span></span>`)
 				.style('left', `${event.pageX + 30}px`)
 				.style('top', `${event.pageY - 30}px`)
 				.transition()
@@ -115,14 +115,14 @@ export default function(root, data) {
 		.on('mousedown', function(d) {
 			d3.select(this).text()
 			legends
-				.classed('-selected', d2 => d == d2)
+				.classed('-selected', legend => d == legend)
 			sort_by = d.key
 			data.sort(sort)
-			y.domain(data.map(d => d.Title))
+			y.domain(data.map(d => d.label))
 			series_rect
 				.transition()
 				.duration(600)
-				.attr('y', d => y(d.data.Title))
+				.attr('y', d => y(data.find(datum => datum.value == d.data).label))
 			y_axis_labels
 				.transition()
 				.duration(600)

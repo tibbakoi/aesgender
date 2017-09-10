@@ -15,11 +15,11 @@ let data = unprocessed_data.map(d => ({
 }))
 
 document.addEventListener('DOMContentLoaded', _ => {
-	const labels = ['Unknown', 'Male', 'Female', 'Non-binary']
+	const genders = ['Unknown', 'Male', 'Female', 'Non-binary']
 
 	d3.select("#results").selectAll("*").remove()
 	
-	donut(d3.select('#results'), labels.map(
+	donut(d3.select('#results'), genders.map(
 		label => ({
 			label,
 			value: data
@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', _ => {
 
 	const topics = uniq(data.map(d => d.Topic))
 	bar(d3.select('#results'), topics.map(
-		topic => ({
-			'Title': topic,
-			...zipObject(
-				labels,
-				labels.map(label => data.filter(d => d.Topic === topic && d.Gender === label).length)
+		label => ({
+			label,
+			value: zipObject(
+				genders,
+				genders.map(g => data.filter(d => d.Topic === label && d.Gender === g).length)
 			)
 		})
 	))
