@@ -72,6 +72,56 @@ text {
 	letter-spacing: 1px;
 }
 
+.y-axis-label {
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.-hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.-selected {
+	font-weight: bold;
+}
+
+.tooltip {
+	position: absolute;
+	padding: 3px 11px;
+	background: #eee;
+	border-radius: 7px;
+	font-size: 11pt;
+	color: #888;
+}
+
+.serie rect.-hover {
+	stroke: #000;
+}
+
+.fraction {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.fraction span.symbol {
+	display: none;
+}
+
+.fraction span {
+	display: block;
+}
+
+.denominator {
+	border-top: thin solid #888;
+}
+
+.legend.bar text {
+	text-transform: none;
+}
+
 .-color-0 { fill: #fedf73; }
 .-color-1 { fill: #dd5e27; }
 .-color-2 { fill: #fbab18; }
