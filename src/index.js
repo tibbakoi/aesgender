@@ -1,7 +1,7 @@
 import * as d3   from 'd3'
 import donut     from './donut.js'
 import bar       from './bar.js'
-import {uniq, map, groupBy, zipObject}
+import {uniq, zipObject}
                  from 'lodash'
 
 import unprocessed_data from '../data/anonymised.csv'
