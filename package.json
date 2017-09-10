@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.6.0",
     "cpx": "^1.5.0",
     "d3": "^4.10.0",
+    "dsv-loader": "^2.0.0",
     "eslint": "^4.3.0",
     "lodash": "^4.17.4",
     "webpack": "^3.4.0",

@@ -21,6 +21,12 @@ module.exports = {
 				use: {
 					loader: 'babel-loader'
 				}
+			},
+			{
+				test: /\.csv$/,
+				use: {
+					loader: 'dsv-loader'
+				}
 			}
 		]
 	},
