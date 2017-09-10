@@ -87,6 +87,7 @@ text {
 }
 
 .tooltip {
+	pointer-events: none;
 	position: absolute;
 	padding: 3px 11px;
 	background: #eee;
