@@ -1,7 +1,8 @@
 import * as d3 from 'd3'
-import {range} from 'lodash'
 
 export default function(root, data) {
+	console.log('databar', data)
+
 	const w = 400, h = 400
 
 	var svg = root.append('svg')
@@ -22,31 +23,6 @@ export default function(root, data) {
 	var stack = d3.stack()
 		.offset(d3.stackOffsetExpand)
 
-	const titles = [
-		'Applications of Time-Freq. Processing in Audio',
-		'Audio Education',
-		'Audio Forensics',
-		'Audio for Games',
-		'Audio for VR and AR',
-		'Automotive Audio',
-		'Dereverb. and Reverb. of Audio, Music, and Speech',
-		'Future of Audio Entertainment Tech.',
-		'Headphone Technology',
-		'Loudspeakers and Headphones',
-		'Music Induced Hearing Disorders',
-		'Semantic Audio',
-		'Sound Field Control',
-		'Sound Reinforcement',
-		'Spatial Audio'
-	]
-
-	data = range(0, titles.length).map(idx => ({
-		'Title':      titles[idx],
-		'Male':       Math.round(Math.random() * 1000),
-		'Unknown':    Math.round(Math.random() * 200),
-		'Non-binary': Math.round(Math.random() * 10),
-		'Female':     Math.round(Math.random() * 100),
-	}))
 	data.columns = ['Title', 'Male', 'Unknown', 'Non-binary', 'Female']
 
 	let sort_by = 'Female'
