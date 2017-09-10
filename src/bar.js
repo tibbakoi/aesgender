@@ -20,7 +20,9 @@ export default function(root, data) {
 		.rangeRound([0, w])
 
 	data.columns = sortBy(
+		// Get an array of unique column names
 		uniq(flatMap(data, d => keys(d.value))),
+		// Sort by which of these has the least entries
 		label => sum(data.map(d => -d.value[label]))
 	)
 	
