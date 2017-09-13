@@ -15,8 +15,10 @@ export default function($root, data) {
 		.padding(0.2)
 		.align(0.7)
 
+	const scale_width = Math.min(400, w)
+
 	let x = d3.scaleLinear()
-		.rangeRound([0, w])
+		.rangeRound([0, scale_width])
 
 	data.columns = sortBy(
 		// Get an array of unique column names
@@ -66,7 +68,7 @@ export default function($root, data) {
 		.attr('x', d => -x(d[1]))
 		.attr('width', d => - (x(d[0]) - x(d[1])))
 		.attr('height', y.bandwidth())
-		.attr('transform', `translate(${w}, 0)`)
+		.attr('transform', `translate(${scale_width}, 0)`)
 		.on('mousemove', function(d, idx) {
 			let rect = d3.select(this)
 			let key  = d3.select(this.parentNode).datum().key
@@ -147,7 +149,7 @@ export default function($root, data) {
 		.attr('transform', function(d, idx) {
 			let x_pos = d3.select(this).select('text').node().getComputedTextLength() + margin_for_indicator
 			x_offset = x_offset - x_pos
-			return `translate(${(x_offset/total_text_length) * (w-40) + 20 + margin_for_indicator}, 0)`
+			return `translate(${(x_offset/total_text_length) * (scale_width-40) + 20 + margin_for_indicator}, 0)`
 		})
 
 	let max_text_height = d3.max(legends_text.nodes(), l => l.getBBox().height)
