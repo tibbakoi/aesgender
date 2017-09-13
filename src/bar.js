@@ -2,7 +2,6 @@ import * as d3 from 'd3'
 import {sum, values, uniq, flatMap, keys, sortBy} from 'lodash'
 
 export default function($root, data) {
-	console.log('$root', $root.node(), $root.node().clientWidth)
 	const w = $root.node().clientWidth, h = data.length * 30
 
 	let svg = $root.append('svg')
@@ -161,8 +160,4 @@ export default function($root, data) {
 		.attr('height', bbox.height)
 		.attr('viewBox', `${w-y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height}`)
 		.attr('preserveAspectRatio', 'xMidYMid meet')
-
-	svg.node().style.display='none';
-	svg.node().offsetHeight; // no need to store this anywhere, the reference is enough
-	svg.node().style.display='';
 }
