@@ -39,6 +39,19 @@ document.addEventListener('DOMContentLoaded', _ => {
 	// Fig. 7 Gender composition of single authors vs multi-authored presentations across all conferences, where the number on the right is the population size for each authorship type.
 	bar($results, grouped_by_selector(
 		data.filter(d => d['Inc. for sole/coauthor?'] === 'TRUE'), 'Single/multi author'))
+
+	window.addEventListener('resize', e => {
+		// Don't use .getElementsById because HTMLCollection doesn't implement
+		// iterator methods
+		const svgs  = document.querySelectorAll('svg')
+		const width = Math.min(750, document.getElementById('results').clientWidth)
+
+		for (let svg of svgs) {
+			const ratio = svg.getAttribute('width') / svg.getAttribute('height')
+			svg.setAttribute('width', width)
+			svg.setAttribute('height', width/ratio)
+		}
+	})
 })
 
 function grouped_by_selector(data, selector) {

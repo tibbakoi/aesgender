@@ -7,6 +7,8 @@ export default function(root, data) {
 	var svg = root.append('svg')
 		.attr('width', w*2)
 		.attr('height', h + 100)
+		.attr('viewBox', `0 0 ${w*2.2} ${h}`)
+		.attr('preserveAspectRatio', 'xMidYMid meet')
 		
 	const g = svg.append('g')
 		.attr('transform', `translate(${w}, 50)`)

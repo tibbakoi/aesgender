@@ -7,7 +7,8 @@ export default function(root, data) {
 		.append('svg')
 		.attr('width', w)
 		.attr('height', h)
-		.attr('viewBox', `0 -${h/2} ${w} ${h}`)
+		.attr('viewBox', `-${w} -${h/2} ${w*2} ${h}`)
+		.attr('preserveAspectRatio', 'xMidYMid meet')
 		.append('g')
 
 	svg.append('g').attr('class', 'slices')
