@@ -52,7 +52,8 @@ h2 {
 }
 
 svg {
-	width: 100%;
+	/*width: 100%;*/
+	transform: translateZ(0);	
 }
 
 .slice {

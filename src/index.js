@@ -68,8 +68,8 @@ function grouped_by_selector(data, selector) {
 
 function decode_pronoun_to_label(pronoun) {
 	return ({
-		'he': 'Male',
-		'she': 'Female',
-		'they': 'Non-binary',
+		he:   'Male',
+		she:  'Female',
+		they: 'Non-binary',
 	}[pronoun.toLowerCase()]) || 'Unknown'
 }

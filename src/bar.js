@@ -1,24 +1,22 @@
 import * as d3 from 'd3'
 import {sum, values, uniq, flatMap, keys, sortBy} from 'lodash'
 
-export default function(root, data) {
-	const w = 400, h = data.length * 30
+export default function($root, data) {
+	console.log('$root', $root.node(), $root.node().clientWidth)
+	const w = $root.node().clientWidth, h = data.length * 30
 
-	var svg = root.append('svg')
-		.attr('width', w*2)
-		.attr('height', h + 100)
-		.attr('viewBox', `0 0 ${w*2.2} ${h}`)
-		.attr('preserveAspectRatio', 'xMidYMid meet')
+	let svg = $root.append('svg')
+		.attr('width', w)
 		
 	const g = svg.append('g')
 		.attr('transform', `translate(${w}, 50)`)
 
-	var y = d3.scaleBand()
+	let y = d3.scaleBand()
 		.rangeRound([0, h])
 		.padding(0.2)
 		.align(0.7)
 
-	var x = d3.scaleLinear()
+	let x = d3.scaleLinear()
 		.rangeRound([0, w])
 
 	data.columns = sortBy(
@@ -28,7 +26,7 @@ export default function(root, data) {
 		label => sum(data.map(d => -d.value[label]))
 	)
 	
-	var stack = d3.stack()
+	let stack = d3.stack()
 		.offset(d3.stackOffsetExpand)
 		.keys(data.columns)
 
@@ -108,7 +106,7 @@ export default function(root, data) {
 		.attr('transform', `translate(0, ${h})`)
 
 	// Legend
-	var legend = serie.append('g')
+	let legend = serie.append('g')
 		.attr('class', 'legend bar')
 
 	let legends = legend.append('g')
@@ -157,4 +155,14 @@ export default function(root, data) {
 	legends.append('path')
 		.attr('d', d3.symbol().type(d3.symbolTriangle))
 		.attr('transform', `translate(-10, -4)`)
+
+	const bbox = g.node().getBBox()
+	svg
+		.attr('height', bbox.height)
+		.attr('viewBox', `${w-y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height}`)
+		.attr('preserveAspectRatio', 'xMidYMid meet')
+
+	svg.node().style.display='none';
+	svg.node().offsetHeight; // no need to store this anywhere, the reference is enough
+	svg.node().style.display='';
 }

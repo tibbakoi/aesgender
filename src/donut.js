@@ -1,19 +1,19 @@
 import * as d3 from 'd3'
 
-export default function(root, data) {
-	const w = 400, h = 400
+export default function($root, data) {
+	const w = $root.node().clientWidth, h = 400
 
-	const svg = root
+	const svg = $root
 		.append('svg')
 		.attr('width', w)
 		.attr('height', h)
-		.attr('viewBox', `-${w} -${h/2} ${w*2} ${h}`)
 		.attr('preserveAspectRatio', 'xMidYMid meet')
-		.append('g')
+		
+	const g = svg.append('g')
 
-	svg.append('g').attr('class', 'slices')
-	svg.append('g').attr('class', 'labels')
-	svg.append('g').attr('class', 'lines')
+	g.append('g').attr('class', 'slices')
+	g.append('g').attr('class', 'labels')
+	g.append('g').attr('class', 'lines')
 
 	const radius = Math.min(w, h) / 2
 
@@ -33,7 +33,7 @@ export default function(root, data) {
 
 	// Slices
 
-	const slices = svg
+	const slices = g
 		.select('.slices')
 		.selectAll('path.slice')
 		.data(pie(data), key)
@@ -48,7 +48,7 @@ export default function(root, data) {
 		return d.startAngle + (d.endAngle - d.startAngle)/2
 	}
 
-	const text = svg
+	const text = g
 		.select('.labels')
 		.selectAll('text')
 		.data(pie(data), key)
@@ -66,7 +66,7 @@ export default function(root, data) {
 
 	// Label-lines
 
-	const polyline = svg
+	const polyline = g
 		.select('.lines')
 		.selectAll('polyline')
 		.data(pie(data), key)
@@ -80,6 +80,11 @@ export default function(root, data) {
 				outerArc.centroid(d)[1]
 			]
 		])
+
+	const bbox = g.node().getBBox()
+	svg
+		.attr('height', bbox.height)
+		.attr('viewBox', `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`)
 
 	return svg
 }
