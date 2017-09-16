@@ -81,10 +81,14 @@ export default function($root, data) {
 			]
 		])
 
-	const bbox = g.node().getBBox()
-	svg
-		.attr('height', bbox.height)
-		.attr('viewBox', `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`)
+	function update(e) {
+		const bbox = g.node().getBBox()
+		svg
+			.attr('height', bbox.height)
+			.attr('viewBox', `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`)
+	}
 
-	return svg
+	update()
+
+	return update
 }

@@ -1,5 +1,11 @@
+import {
+	sum,
+	values,
+	uniq,
+	flatMap,
+	keys,
+	sortBy}    from 'lodash'
 import * as d3 from 'd3'
-import {sum, values, uniq, flatMap, keys, sortBy} from 'lodash'
 
 export default function($root, data) {
 	const w = $root.node().clientWidth, h = data.length * 30
@@ -31,7 +37,7 @@ export default function($root, data) {
 		.offset(d3.stackOffsetExpand)
 		.keys(data.columns)
 
-	let sort_by = 'Female'
+	let sort_by = data.columns[0]
 
 	function total(d) {
 		return sum(values(d.value))
@@ -145,21 +151,31 @@ export default function($root, data) {
 
 	let total_text_length = d3.sum($legends_text.nodes(), l => l.getComputedTextLength() + margin_for_indicator)
 	let x_offset = total_text_length
-	$legend
-		.attr('transform', function(d, idx) {
-			let x_pos = d3.select(this).select('text').node().getComputedTextLength() + margin_for_indicator
-			x_offset = x_offset - x_pos
-			return `translate(${(x_offset/total_text_length) * (scale_width-40) + 20 + margin_for_indicator}, 0)`
-		})
 
 	let max_text_height = d3.max($legends_text.nodes(), l => l.getBBox().height)
 	$legends.append('path')
 		.attr('d', d3.symbol().type(d3.symbolTriangle))
 		.attr('transform', `translate(-10, -4)`)
 
-	const bbox = $g.node().getBBox()
-	$svg
-		.attr('height', bbox.height)
-		.attr('viewBox', `${w-$y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height}`)
-		.attr('preserveAspectRatio', 'xMidYMid meet')
+	function update(e) {
+		// Update legend label positions
+		$legend
+			.attr('transform', function(d, idx) {
+				let x_pos = d3.select(this).select('text').node().getComputedTextLength() + margin_for_indicator
+				x_offset = x_offset - x_pos
+				return `translate(${(x_offset/total_text_length) * (scale_width-40) + 20 + margin_for_indicator}, 0)`
+			})
+
+		// Update size of canvas
+		const bbox = $g.node().getBBox()
+		$svg
+			.attr('height', bbox.height)
+			.attr('viewBox', `${w-$y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height}`)
+			.attr('preserveAspectRatio', 'xMidYMid meet')
+	
+	}
+
+	update()
+
+	return update;
 }
