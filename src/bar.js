@@ -147,11 +147,7 @@ export default function($root, data) {
 		.text(d => d.key)
 		.attr('fill', 'black')
 
-	const margin_for_indicator = 10 + 10
-
-	let total_text_length = d3.sum($legends_text.nodes(), l => l.getComputedTextLength() + margin_for_indicator)
-	let x_offset = total_text_length
-
+	// Add triangle indicators
 	let max_text_height = d3.max($legends_text.nodes(), l => l.getBBox().height)
 	$legends.append('path')
 		.attr('d', d3.symbol().type(d3.symbolTriangle))
@@ -159,6 +155,9 @@ export default function($root, data) {
 
 	function update(e) {
 		// Update legend label positions
+		const margin_for_indicator = 10 + 10
+		let total_text_length = d3.sum($legends_text.nodes(), l => l.getComputedTextLength() + margin_for_indicator)
+		let x_offset = total_text_length
 		$legend
 			.attr('transform', function(d, idx) {
 				let x_pos = d3.select(this).select('text').node().getComputedTextLength() + margin_for_indicator
