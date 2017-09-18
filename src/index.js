@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded', _ => {
 	const $results = d3.select("#results")
 	$results.selectAll("*").remove()
 
+	$results.append('h3').text('Overall gender composition across dataset')
+	$results.append('h3').text('Gender composition across conference topics')
+	$results.append('h3').text('Gender composition across the different presentation types')
+	$results.append('h3').text('Gender composition across relative author positions in presentations')
+	$results.append('h3').text('Gender composition of single authors vs multi-authored presentations across all conferences')
+
 	let charts = [
 		// Fig. 2 Overall gender composition across dataset.
 		donut($results, genders.map(
