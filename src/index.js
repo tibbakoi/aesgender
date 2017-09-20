@@ -4,6 +4,7 @@ import bar       from './bar.js'
 import {uniq, zipObject}
                  from 'lodash'
 
+// Uses webpack CSV loader
 import unprocessed_data from '../data/anonymised.csv'
 
 // Add normalized gender field to data from CSV file
