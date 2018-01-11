@@ -1,4 +1,4 @@
-ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Topic,Year,Type,Grouped Type,Inc. for author pos?,Inc. for sole/coauthor?,Invited paper status
+ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Topic,Year,Type,Grouped Type,Inc. for author pos?,Inc. for single/multiauthor?,Invited paper status
 1,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 2,He,2,last,multi,2015 Audio for Games,Audio for Games,2015,keynote,keynote,FALSE,FALSE,invited
 3,He,4,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
@@ -1116,7 +1116,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1117,He,2,last,multi,2013 Audio for Games,Audio for Games,2013,poster,poster,TRUE,TRUE,not invited
 1118,He,2,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
 1119,He,1,first,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
-1120,He,3,middle,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
+1120,Information Unavailable,3,middle,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 1121,He,3,last,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 1122,She,1,first,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 1123,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
