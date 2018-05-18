@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', _ => {
 		// Don't use .getElementsById because HTMLCollection doesn't implement
 		// iterator methods
 		const svgs  = document.querySelectorAll('svg')
-		const width = Math.min(750, document.getElementById('results').clientWidth)
+		const width = Math.min(900, document.getElementById('results').clientWidth)
 
 		for (let svg of svgs) {
 			const ratio = svg.getAttribute('width') / svg.getAttribute('height')

@@ -57,6 +57,14 @@ h3 {
 	clear: both;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 p img {
 	max-width: 200px;
 	max-height: 200px;
