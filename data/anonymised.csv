@@ -1,5 +1,5 @@
 ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Topic,Year,Type,Grouped Type,Inc. for author pos?,Inc. for single/multiauthor?,Invited paper status
-1,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+1,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 2,He,2,last,multi,2015 Audio for Games,Audio for Games,2015,keynote,keynote,FALSE,FALSE,invited
 3,He,4,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 4,He,9,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
@@ -7,7 +7,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 6,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 7,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 8,He,2,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,invited talk,invited speaker,FALSE,FALSE,invited
-9,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+9,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 10,He,3,last,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 11,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
 12,She,1,first,multi,2013 Audio for Games,Audio for Games,2013,workshop,workshop,FALSE,FALSE,not invited
@@ -17,13 +17,13 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 16,She,4,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 17,She,4,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 18,He,3,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
-19,He,1,first,single,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
+19,He,1,first,single,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,FALSE,TRUE,not invited
 20,He,3,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 21,He,3,last,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 22,He,2,last,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 23,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 24,He,2,last,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
-25,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+25,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 26,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 27,He,3,last,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 28,He,6,last,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
@@ -83,7 +83,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 83,He,2,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 84,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 85,He,2,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
-86,He,1,first,single,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
+86,He,1,first,single,2014 Spatial Audio,Spatial Audio,2014,paper,paper,FALSE,TRUE,not invited
 87,He,3,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
 88,He,4,middle,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
 89,He,3,middle,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
@@ -102,7 +102,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 102,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
 103,He,2,middle,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 104,He,3,last,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
-105,She,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
+105,She,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,FALSE,TRUE,not invited
 106,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,demo,demo,FALSE,FALSE,not invited
 107,He,5,last,multi,2016 Sound Field Control,Sound Field Control,2016,panel,panel,FALSE,FALSE,invited
 108,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
@@ -120,7 +120,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 120,She,2,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 121,She,2,middle,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 122,She,1,first,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
-123,She,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+123,She,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 124,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 125,He,1,first,single,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,invited speaker,invited speaker,FALSE,FALSE,invited
 126,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
@@ -139,7 +139,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 139,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
 140,He,2,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 141,He,4,middle,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
-142,He,1,first,single,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
+142,He,1,first,single,2015 Audio for Games,Audio for Games,2015,paper,paper,FALSE,TRUE,not invited
 143,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,keynote,keynote,FALSE,FALSE,invited
 144,He,4,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,workshop,workshop,FALSE,FALSE,not invited
 145,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
@@ -150,9 +150,9 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 150,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 151,He,4,last,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 152,She,1,first,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
-153,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,invited paper,invited paper,TRUE,TRUE,invited
+153,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,invited paper,invited paper,FALSE,TRUE,invited
 154,He,2,middle,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
-155,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
+155,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,FALSE,TRUE,not invited
 156,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,demonstration,demo,FALSE,FALSE,not invited
 157,He/They,1,first,single,2016 Audio for Games,Audio for Games,2016,keynote,keynote,FALSE,FALSE,invited
 158,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
@@ -162,7 +162,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 162,He,2,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,workshop,workshop,FALSE,FALSE,not invited
 163,He,3,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,workshop,workshop,FALSE,FALSE,not invited
 164,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
-165,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+165,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 166,He,2,middle,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 167,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,keynote,keynote,FALSE,FALSE,invited
 168,He,1,first,single,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,tutorial,workshop,FALSE,FALSE,not invited
@@ -180,7 +180,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 180,He,3,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
 181,He,2,last,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 182,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,keynote,keynote,FALSE,FALSE,invited
-183,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,TRUE,TRUE,not invited
+183,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,FALSE,TRUE,not invited
 184,He,1,first,single,2013 Audio Education,Audio Education,2013,keynote,keynote,FALSE,FALSE,invited
 185,He,1,first,single,2013 Audio Education,Audio Education,2013,workshop,workshop,FALSE,FALSE,not invited
 186,He,1,first,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
@@ -192,7 +192,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 192,She,2,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,panel,panel,FALSE,FALSE,invited
 193,She,1,first,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 194,She,1,first,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
-195,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+195,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 196,He,3,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 197,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 198,He,2,middle,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
@@ -200,10 +200,10 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 200,He,5,last,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,panel,panel,FALSE,FALSE,invited
 201,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 202,He,2,middle,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
-203,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
+203,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,FALSE,TRUE,not invited
 204,He,2,last,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 205,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
-206,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
+206,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,FALSE,TRUE,not invited
 207,He,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 208,He,3,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 209,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,talk,invited speaker,FALSE,FALSE,invited
@@ -224,7 +224,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 224,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 225,He,3,last,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
 226,She,2,last,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
-227,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+227,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 228,He,3,middle,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 229,He,4,middle,multi,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
 230,He,1,first,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
@@ -289,18 +289,18 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 289,He,3,last,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
 290,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,tutorial,workshop,FALSE,FALSE,not invited
 291,He,2,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
-292,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
+292,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,FALSE,TRUE,not invited
 293,He,4,last,multi,2012 Audio Forensics,Audio Forensics,2012,workshop,workshop,FALSE,FALSE,not invited
 294,He,3,last,multi,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
 295,He,2,middle,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
-296,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+296,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 297,Information Unavailable,5,last,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 298,He,2,last,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 299,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
 300,He,4,middle,multi,2013 Audio for Games,Audio for Games,2013,workshop,workshop,FALSE,FALSE,not invited
 301,He,5,middle,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 302,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
-303,She,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
+303,She,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,FALSE,TRUE,not invited
 304,He,3,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 305,He,4,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 306,He,1,first,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
@@ -312,7 +312,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 312,He,2,middle,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
 313,He,3,last,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 314,He,3,middle,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
-315,She,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
+315,She,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,FALSE,TRUE,not invited
 316,He,3,last,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 317,He,2,last,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 318,He,2,last,multi,2013 Audio for Games,Audio for Games,2013,poster,poster,TRUE,TRUE,not invited
@@ -322,12 +322,12 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 322,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 323,He,2,last,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 324,He,1,first,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
-325,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
+325,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,FALSE,TRUE,not invited
 326,He,6,middle,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
-327,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
+327,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,paper,paper,FALSE,TRUE,not invited
 328,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 329,He,1,first,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
-330,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+330,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 331,He,2,middle,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 332,He,2,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 333,He,4,last,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
@@ -335,12 +335,12 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 335,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,tutorial,workshop,FALSE,FALSE,not invited
 336,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 337,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,keynote,keynote,FALSE,FALSE,invited
-338,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+338,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 339,He,1,first,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 340,He,3,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 341,He,3,last,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 342,He,1,first,multi,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
-343,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
+343,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,FALSE,TRUE,not invited
 344,He,5,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 345,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,tutorial,workshop,FALSE,FALSE,not invited
 346,He,2,middle,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
@@ -348,24 +348,24 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 348,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
 349,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 350,He,4,last,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
-351,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
-352,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
+351,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
+352,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,poster,poster,FALSE,TRUE,not invited
 353,He,4,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
 354,He,2,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
 355,He,2,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 356,He,3,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 357,He,3,middle,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
-358,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
+358,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,FALSE,TRUE,not invited
 359,He,4,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 360,He,2,middle,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 361,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 362,He,2,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
-363,He,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
+363,He,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,FALSE,TRUE,not invited
 364,He,1,first,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 365,He,6,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 366,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
-367,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,TRUE,TRUE,not invited
-368,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+367,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,FALSE,TRUE,not invited
+368,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 369,He,1,first,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 370,He,1,first,multi,2013 Audio Education,Audio Education,2013,workshop,workshop,FALSE,FALSE,not invited
 371,He,3,last,multi,2013 Audio for Games,Audio for Games,2013,workshop,workshop,FALSE,FALSE,not invited
@@ -388,7 +388,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 388,He,3,last,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 389,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 390,He,2,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
-391,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
+391,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,FALSE,TRUE,not invited
 392,He,2,middle,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 393,He,3,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 394,He,3,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
@@ -406,24 +406,24 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 406,He,1,first,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
 407,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,workshop,workshop,FALSE,FALSE,not invited
 408,He,2,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
-409,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+409,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 410,He,3,middle,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 411,He,4,last,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 412,He,2,middle,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,TRUE,TRUE,not invited
 413,He,1,first,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,TRUE,TRUE,not invited
 414,He,4,middle,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 415,He,1,first,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
-416,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
+416,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,FALSE,TRUE,not invited
 417,He,1,first,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
 418,He,2,middle,multi,2012 Audio Forensics,Audio Forensics,2012,workshop,workshop,FALSE,FALSE,not invited
 419,He,2,middle,multi,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
 420,He,2,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 421,He,2,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 422,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,demo,demo,FALSE,FALSE,not invited
-423,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
+423,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,FALSE,TRUE,invited
 424,He,1,first,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 425,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,tutorial,workshop,FALSE,FALSE,not invited
-426,He,1,first,single,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
+426,He,1,first,single,2014 Audio Forensics,Audio Forensics,2014,paper,paper,FALSE,TRUE,not invited
 427,He,1,first,multi,2012 Audio Forensics,Audio Forensics,2012,workshop,workshop,FALSE,FALSE,not invited
 428,He,2,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 429,He,2,middle,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
@@ -432,7 +432,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 432,He,3,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 433,He,2,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 434,She,3,last,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
-435,He,1,first,single,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
+435,He,1,first,single,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,FALSE,TRUE,not invited
 436,She,1,first,multi,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
 437,She,3,last,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 438,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
@@ -465,7 +465,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 465,He,7,middle,multi,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
 466,He,1,first,multi,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
 467,She,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
-468,She,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+468,She,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 469,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 470,She,7,middle,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 471,He,4,middle,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
@@ -493,7 +493,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 493,He,4,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 494,He,5,last,multi,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
 495,He,2,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
-496,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+496,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 497,He,2,middle,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 498,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,Workshop,workshop,FALSE,FALSE,not invited
 499,He,1,first,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
@@ -539,9 +539,9 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 539,He,1,first,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 540,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
 541,He,3,last,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
-542,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
+542,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,FALSE,TRUE,not invited
 543,He,5,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
-544,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+544,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 545,He,1,first,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 546,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 547,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,keynote,keynote,FALSE,FALSE,invited
@@ -556,7 +556,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 556,He,1,first,single,2014 Audio Forensics,Audio Forensics,2014,tutorial,workshop,FALSE,FALSE,not invited
 557,He,1,first,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 558,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,panel,panel,FALSE,FALSE,invited
-559,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
+559,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,FALSE,TRUE,not invited
 560,He,2,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 561,He,1,first,multi,2016 Audio for Games,Audio for Games,2016,panel,panel,FALSE,FALSE,invited
 562,He,2,last,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
@@ -564,7 +564,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 564,He,2,last,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 565,He,2,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 566,He,4,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,workshop,workshop,FALSE,FALSE,not invited
-567,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
+567,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,FALSE,TRUE,not invited
 568,She,2,middle,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 569,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,demonstration,demo,FALSE,FALSE,not invited
 570,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,workshop,workshop,FALSE,FALSE,not invited
@@ -573,8 +573,8 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 573,He,4,last,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 574,He,4,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 575,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,keynote,keynote,FALSE,FALSE,invited
-576,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
-577,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
+576,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,poster,poster,FALSE,TRUE,not invited
+577,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,FALSE,TRUE,not invited
 578,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 579,He,2,last,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
 580,He,4,last,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
@@ -593,21 +593,21 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 593,He,2,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 594,He,1,first,multi,2014 Audio Forensics,Audio Forensics,2014,tutorial,workshop,FALSE,FALSE,not invited
 595,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
-596,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
+596,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,FALSE,TRUE,not invited
 597,He,1,first,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
 598,He,2,middle,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 599,He,4,middle,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
 600,He,1,first,multi,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
 601,He,3,middle,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,invited speaker,invited speaker,FALSE,FALSE,invited
 602,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,keynote,keynote,FALSE,FALSE,invited
-603,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
+603,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,FALSE,TRUE,not invited
 604,He,5,middle,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
-605,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
+605,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,FALSE,TRUE,not invited
 606,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 607,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 608,He,3,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 609,He,2,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
-610,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
+610,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,FALSE,TRUE,not invited
 611,He,3,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 612,He,2,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 613,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
@@ -620,11 +620,11 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 620,She,2,middle,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 621,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,workshop,workshop,FALSE,FALSE,not invited
 622,He,4,last,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
-623,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
+623,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,FALSE,TRUE,not invited
 624,Information Unavailable,1,first,multi,2013 Audio for Games,Audio for Games,2013,poster,poster,TRUE,TRUE,not invited
 625,He,3,last,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
-626,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
-627,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
+626,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,FALSE,TRUE,not invited
+627,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,FALSE,TRUE,not invited
 628,She,2,middle,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
 629,She,1,first,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,keynote,keynote,FALSE,FALSE,invited
 630,She,4,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,panel,panel,FALSE,FALSE,invited
@@ -645,12 +645,12 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 645,He,2,middle,multi,2013 Audio for Games,Audio for Games,2013,poster,poster,TRUE,TRUE,not invited
 646,He,4,middle,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 647,He,2,last,multi,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
-648,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
+648,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,FALSE,TRUE,not invited
 649,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,demo,demo,FALSE,FALSE,not invited
 650,He,3,middle,multi,2016 Sound Field Control,Sound Field Control,2016,panel,panel,FALSE,FALSE,invited
-651,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
-652,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
-653,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+651,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,FALSE,TRUE,not invited
+652,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,FALSE,TRUE,not invited
+653,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 654,He,5,middle,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 655,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 656,He,3,middle,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
@@ -662,14 +662,14 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 662,She,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 663,She,4,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 664,She,3,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
-665,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
+665,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,FALSE,TRUE,not invited
 666,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 667,He,1,first,single,2014 Audio Forensics,Audio Forensics,2014,keynote,keynote,FALSE,FALSE,invited
 668,He,2,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 669,He,2,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 670,He,1,first,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 671,He,2,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
-672,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+672,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 673,He,1,first,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,panel,panel,FALSE,FALSE,invited
 674,He,1,first,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
 675,He,3,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
@@ -750,15 +750,15 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 750,He,1,first,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 751,He,2,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 752,He,1,first,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
-753,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,TRUE,TRUE,not invited
-754,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+753,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,FALSE,TRUE,not invited
+754,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 755,He,5,last,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,panel,panel,FALSE,FALSE,invited
 756,He,5,middle,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
 757,He,1,first,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 758,He,1,first,multi,2013 Audio for Games,Audio for Games,2013,panel,panel,FALSE,FALSE,invited
 759,He,2,middle,multi,2013 Audio for Games,Audio for Games,2013,workshop,workshop,FALSE,FALSE,not invited
 760,He,3,last,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
-761,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+761,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 762,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,tutorial,workshop,FALSE,FALSE,not invited
 763,He,2,middle,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 764,He,1,first,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
@@ -775,7 +775,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 775,He,1,first,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
 776,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 777,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
-778,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
+778,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,FALSE,TRUE,not invited
 779,He,4,last,multi,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
 780,He,2,last,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 781,He,1,first,multi,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
@@ -841,7 +841,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 841,He,1,first,multi,2013 Audio for Games,Audio for Games,2013,poster,poster,TRUE,TRUE,not invited
 842,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 843,He,2,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,workshop,workshop,FALSE,FALSE,not invited
-844,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
+844,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,FALSE,TRUE,invited
 845,Information Unavailable,2,last,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 846,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
 847,He,5,middle,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
@@ -904,13 +904,13 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 905,He,6,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 906,He,7,last,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 907,He,2,middle,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
-908,He,1,first,single,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
+908,He,1,first,single,2015 Audio for Games,Audio for Games,2015,paper,paper,FALSE,TRUE,not invited
 909,He,1,first,single,2013 Audio for Games,Audio for Games,2013,tutorial,workshop,FALSE,FALSE,not invited
 910,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
 911,She,3,middle,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 912,She,2,last,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 913,Information Unavailable,1,first,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
-914,She,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
+914,She,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,FALSE,TRUE,not invited
 915,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 916,She,3,middle,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
 917,He,3,last,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
@@ -919,7 +919,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 920,He,3,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
 921,He,5,last,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 922,He,5,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
-923,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+923,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 924,He,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,keynote,keynote,FALSE,FALSE,invited
 925,He,3,middle,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,tutorial,workshop,FALSE,FALSE,not invited
 926,He,3,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
@@ -952,7 +952,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 953,He,5,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 954,He,5,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 955,He,3,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
-956,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+956,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 957,He,2,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,panel,panel,FALSE,FALSE,invited
 958,He,3,middle,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 959,He,2,middle,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
@@ -973,8 +973,8 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 974,She,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
 975,She,4,last,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 976,She,3,middle,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
-977,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
-978,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+977,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,FALSE,TRUE,not invited
+978,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 979,He,2,last,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 980,He,3,middle,multi,2012 Audio Forensics,Audio Forensics,2012,workshop,workshop,FALSE,FALSE,not invited
 981,He,3,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
@@ -994,7 +994,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 995,He,6,last,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 996,He,4,last,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 997,He,2,last,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
-998,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+998,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 999,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 1000,He,2,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 1001,He,3,last,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
@@ -1004,7 +1004,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1005,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
 1006,He,3,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1007,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
-1008,He,1,first,single,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
+1008,He,1,first,single,2012 Automotive Audio,Automotive Audio,2012,paper,paper,FALSE,TRUE,not invited
 1009,He,8,last,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
 1010,He,2,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
 1011,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,poster,poster,TRUE,TRUE,not invited
@@ -1054,7 +1054,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1055,He,6,last,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
 1056,He,4,last,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 1057,He,1,first,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
-1058,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
+1058,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,FALSE,TRUE,not invited
 1059,He,1,first,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 1060,She,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1061,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,keynote,keynote,FALSE,FALSE,invited
@@ -1062,7 +1062,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1063,He,8,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 1064,She,4,last,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1065,He,1,first,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
-1066,She,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+1066,She,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 1067,He,3,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1068,He,3,last,multi,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
 1069,He,4,middle,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
@@ -1087,7 +1087,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1088,He,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 1089,He,4,last,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 1090,He,2,last,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
-1091,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+1091,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 1092,He,2,middle,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 1093,He,2,middle,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 1094,He,2,middle,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
@@ -1131,7 +1131,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1132,He,1,first,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 1133,She,2,middle,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 1134,Information Unavailable,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
-1135,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
+1135,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,FALSE,TRUE,not invited
 1136,He,2,middle,multi,2013 Audio for Games,Audio for Games,2013,poster,poster,TRUE,TRUE,not invited
 1137,She,2,middle,multi,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
 1138,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
@@ -1141,7 +1141,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1142,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1143,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 1144,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
-1145,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
+1145,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,FALSE,TRUE,not invited
 1146,He,2,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1147,He,2,middle,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 1148,He,4,middle,multi,2014 Spatial Audio,Spatial Audio,2014,workshop,workshop,FALSE,FALSE,not invited
@@ -1155,9 +1155,9 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1156,He,3,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 1157,He,1,first,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 1158,He,2,last,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
-1159,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,TRUE,TRUE,not invited
+1159,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,paper,paper,FALSE,TRUE,not invited
 1160,He,3,middle,multi,2014 Semantic Audio,Semantic Audio,2014,demo,demo,FALSE,FALSE,not invited
-1161,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
+1161,He,1,first,single,2013 Audio for Games,Audio for Games,2013,paper,paper,FALSE,TRUE,not invited
 1162,He,2,middle,multi,2013 Audio for Games,Audio for Games,2013,paper,paper,TRUE,TRUE,not invited
 1163,He,1,first,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 1164,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,keynote,keynote,FALSE,FALSE,invited
@@ -1215,7 +1215,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1216,He,1,first,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 1217,He,3,last,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 1218,He,4,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
-1219,She,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
+1219,She,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,FALSE,TRUE,not invited
 1220,He,3,middle,multi,2014 Audio Forensics,Audio Forensics,2014,tutorial,workshop,FALSE,FALSE,not invited
 1221,He,3,last,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 1222,He,1,first,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
@@ -1228,18 +1228,18 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1229,He,2,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1230,He,2,last,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 1231,He,2,middle,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
-1232,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+1232,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 1233,He,6,last,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 1234,He,4,middle,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
 1235,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,tutorial,workshop,FALSE,FALSE,not invited
 1236,He,2,first,multi,2016 Sound Field Control,Sound Field Control,2016,panel,panel,FALSE,FALSE,invited
 1237,He,2,last,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
-1238,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
+1238,He,1,first,single,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,FALSE,TRUE,not invited
 1239,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,lecture,invited speaker,FALSE,FALSE,invited
 1240,He,4,last,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 1241,He,2,last,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 1242,He,1,first,single,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
-1243,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
+1243,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,FALSE,TRUE,not invited
 1244,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,demo,demo,FALSE,FALSE,not invited
 1245,He,1,first,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 1246,He,5,last,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
@@ -1283,7 +1283,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1284,He,4,last,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 1285,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,paper,paper,TRUE,TRUE,not invited
 1286,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
-1287,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+1287,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 1288,He,3,middle,multi,2014 Semantic Audio,Semantic Audio,2014,paper,paper,TRUE,TRUE,not invited
 1289,He,1,first,single,2014 Spatial Audio,Spatial Audio,2014,keynote,keynote,FALSE,FALSE,invited
 1290,He,3,last,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
@@ -1317,7 +1317,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1318,He,3,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 1319,He,4,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 1320,He,3,middle,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
-1321,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
+1321,He,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,FALSE,TRUE,not invited
 1322,He,4,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1323,He,2,middle,multi,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
 1324,He,3,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
@@ -1333,24 +1333,24 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1334,She,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,paper,paper,TRUE,TRUE,not invited
 1335,He,1,first,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1336,He,1,first,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
-1337,He,1,first,single,2015 Audio for Games,Audio for Games,2015,paper,paper,TRUE,TRUE,not invited
+1337,He,1,first,single,2015 Audio for Games,Audio for Games,2015,paper,paper,FALSE,TRUE,not invited
 1338,He,2,middle,multi,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
 1339,He,1,first,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
 1340,He,1,first,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 1341,He,4,last,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
 1342,He,3,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,panel,panel,FALSE,FALSE,invited
-1343,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
+1343,He,1,first,single,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,FALSE,TRUE,not invited
 1344,He,3,last,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1345,He,2,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,keynote,keynote,FALSE,FALSE,invited
 1346,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 1347,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
-1348,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+1348,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 1349,He,2,middle,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
 1350,He,4,middle,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,poster,poster,TRUE,TRUE,not invited
 1351,He,1,first,multi,2015 Audio for Games,Audio for Games,2015,keynote,keynote,FALSE,FALSE,invited
 1352,He,2,last,multi,2013 Audio for Games,Audio for Games,2013,workshop,workshop,FALSE,FALSE,not invited
 1353,He,1,first,single,2013 Audio for Games,Audio for Games,2013,keynote,keynote,FALSE,FALSE,invited
-1354,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
+1354,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,poster,poster,FALSE,TRUE,not invited
 1355,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1356,He,1,first,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
 1357,He,2,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
@@ -1381,7 +1381,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1382,He,3,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1383,He,2,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 1384,He,1,first,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
-1385,She,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
+1385,She,1,first,single,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,FALSE,TRUE,not invited
 1386,He,5,middle,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 1387,Information Unavailable,5,last,multi,2013 Audio Education,Audio Education,2013,panel,panel,FALSE,FALSE,invited
 1388,He,1,first,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
@@ -1424,8 +1424,8 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1425,He,3,middle,multi,2016 Audio for Games,Audio for Games,2016,panel,panel,FALSE,FALSE,invited
 1426,He,1,first,single,2015 Audio for Games,Audio for Games,2015,keynote,keynote,FALSE,FALSE,invited
 1427,He,1,first,single,2013 Audio for Games,Audio for Games,2013,tutorial,workshop,FALSE,FALSE,not invited
-1428,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
-1429,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,TRUE,TRUE,not invited
+1428,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,paper,paper,FALSE,TRUE,not invited
+1429,He,1,first,single,2012 Audio Forensics,Audio Forensics,2012,poster,poster,FALSE,TRUE,not invited
 1430,He,1,first,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1431,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
 1432,He,1,first,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
@@ -1444,7 +1444,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1445,He,3,last,multi,2012 Audio Forensics,Audio Forensics,2012,paper,paper,TRUE,TRUE,not invited
 1446,He,1,first,multi,2012 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2012,paper,paper,TRUE,TRUE,not invited
 1447,He,1,first,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
-1448,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
+1448,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,FALSE,TRUE,not invited
 1449,He,1,first,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
 1450,He,1,first,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 1451,He,1,first,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
@@ -1452,7 +1452,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1453,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1454,He,3,last,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
 1455,He,2,last,multi,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,paper,paper,TRUE,TRUE,not invited
-1456,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,invited paper,invited paper,TRUE,TRUE,invited
+1456,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,invited paper,invited paper,FALSE,TRUE,invited
 1457,He,4,middle,multi,2016 Audio for Games,Audio for Games,2016,panel,panel,FALSE,FALSE,invited
 1458,He,1,first,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 1459,He,4,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
@@ -1525,10 +1525,10 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1526,He,4,last,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 1527,He,1,first,single,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,workshop,workshop,FALSE,FALSE,not invited
 1528,He,1,first,multi,2012 Automotive Audio,Automotive Audio,2012,workshop,workshop,FALSE,FALSE,not invited
-1529,He,1,first,single,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
+1529,He,1,first,single,2012 Automotive Audio,Automotive Audio,2012,paper,paper,FALSE,TRUE,not invited
 1530,He,1,first,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
 1531,He,1,first,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
-1532,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,poster,poster,TRUE,TRUE,not invited
+1532,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,poster,poster,FALSE,TRUE,not invited
 1533,He,1,first,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 1534,He,1,first,multi,2014 Semantic Audio,Semantic Audio,2014,poster,poster,TRUE,TRUE,not invited
 1535,He,2,last,multi,2014 Audio Forensics,Audio Forensics,2014,paper,paper,TRUE,TRUE,not invited
@@ -1636,11 +1636,11 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1637,He,2,middle,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1638,He,4,last,multi,2014 Spatial Audio,Spatial Audio,2014,poster,poster,TRUE,TRUE,not invited
 1639,He,2,middle,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
-1640,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
+1640,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,paper,paper,FALSE,TRUE,not invited
 1641,He,3,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
 1642,He,1,first,single,2012 Applications of Time-Frequency Processing in Audio,Applications of Time-Frequency Processing in Audio,2012,invited speaker,invited speaker,FALSE,FALSE,invited
-1643,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
-1644,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
+1643,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
+1644,He,1,first,single,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,FALSE,TRUE,not invited
 1645,Information Unavailable,2,middle,multi,2016 Audio for VR and AR,Audio for VR and AR,2016,paper,paper,TRUE,TRUE,not invited
 1646,Information Unavailable,2,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
 1647,He,1,first,single,2014 Semantic Audio,Semantic Audio,2014,keynote,keynote,FALSE,FALSE,invited
@@ -1691,7 +1691,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1692,He,1,first,multi,2015 Sound Reinforcement Engineering and Technology,Sound Reinforcement,2015,tutorial,workshop,FALSE,FALSE,not invited
 1693,He,3,last,multi,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
 1694,He,4,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
-1695,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,TRUE,TRUE,not invited
+1695,He,1,first,single,2016 Sound Field Control,Sound Field Control,2016,paper,paper,FALSE,TRUE,not invited
 1696,He,1,first,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,invited paper,invited paper,TRUE,TRUE,invited
 1697,Information Unavailable,3,last,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 1698,He,9,middle,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
@@ -1703,16 +1703,16 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 1704,He,1,first,multi,2015 Future of Audio Entertainment Technology: Cinema Television and the Internet,Future of Audio Entertainment Technology,2015,workshop,workshop,FALSE,FALSE,not invited
 1705,He,4,last,multi,2014 Spatial Audio,Spatial Audio,2014,Workshop,workshop,FALSE,FALSE,not invited
 1706,He,6,last,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
-1707,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
+1707,He,1,first,single,2013 Audio Education,Audio Education,2013,paper,paper,FALSE,TRUE,not invited
 1708,He,2,middle,multi,2013 Sound Field Control - Engineering and Perception,Sound Field Control,2013,paper,paper,TRUE,TRUE,not invited
 1709,He,2,middle,multi,2013 Audio Education,Audio Education,2013,paper,paper,TRUE,TRUE,not invited
 1710,He,1,first,multi,2016 Audio for Games,Audio for Games,2016,paper,paper,TRUE,TRUE,not invited
-1711,He,1,first,single,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,TRUE,TRUE,not invited
+1711,He,1,first,single,"2016 Dereverberation and Reverberation of Audio, Music, and Speech",DREAMS,2016,paper,paper,FALSE,TRUE,not invited
 1712,He,2,middle,multi,2015 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2015,paper,paper,TRUE,TRUE,not invited
 1713,He,2,middle,multi,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
 1714,He,1,first,single,2016 Headphone Technology,Headphone Technology,2016,keynote,keynote,FALSE,FALSE,invited
 1715,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,tutorial,workshop,FALSE,FALSE,not invited
-1716,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,TRUE,TRUE,not invited
+1716,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,paper,paper,FALSE,TRUE,not invited
 1717,He,1,first,single,2013 Loudspeakers and Headphones,Loudspeakers and Headphones,2013,demonstration,demo,FALSE,FALSE,not invited
 1718,He,2,last,multi,2012 Automotive Audio,Automotive Audio,2012,paper,paper,TRUE,TRUE,not invited
 1719,He,3,last,multi,2016 Headphone Technology,Headphone Technology,2016,paper,paper,TRUE,TRUE,not invited
