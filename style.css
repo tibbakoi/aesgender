@@ -1,0 +1,167 @@
+body {
+	margin: 50px;
+	padding: 50px;
+	font-family: 'Usual', sans-serif;
+	font-size: 12pt;
+	line-height: 1.6;
+	background: white;
+	box-shadow: 0 0 2rem 2rem #eee;
+	max-width: 1600px;
+	box-sizing: border-box;
+}
+
+/*
+ * If the page is really small...
+ */
+@media only screen and (max-width: 900px) {
+	body {
+		box-shadow: none;
+		margin: 0;
+	}
+}
+
+/*
+ * If the page is really big!
+ */
+@media only screen and (min-width: 1700px) {
+	body {
+		margin: 50px auto;
+	}
+}
+
+body > * {
+	margin: 0 0 20px;
+}
+
+.wf-loading,
+.wf-inactive {
+	color: rgba(0,0,0,0)
+}
+
+h1, h2, h3 {
+	font-family: 'Quatro', sans-serif;
+}
+
+h1 {
+	font-size: 22pt;
+}
+
+h2 {
+	font-size: 18pt;
+	margin: 40px 0 20px;
+	border-bottom: 3px solid #ddd;
+}
+
+h3 {
+	font-size: 14pt;
+	clear: both;
+}
+
+p img {
+	max-width: 200px;
+	max-height: 200px;
+	margin: 0 0 10px 10px;
+	float: right; 
+}
+
+.email {
+	font-family: Menlo, monospace;
+	font-weight: normal;
+	font-size: 10pt;
+}
+
+.twitter {
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.email::before { content: "<"; }
+.email::after { content: ">"; }
+
+footer {
+	opacity: 0.6;
+	border-top: 3px solid #ddd;
+	padding-top: 20px;
+	text-align: right;
+	font-size: 10pt;
+}
+
+svg {
+	/*width: 100%;*/
+	transform: translateZ(0);	
+}
+
+.slice {
+	stroke-width: 2px;
+}
+
+polyline {
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+
+text {
+	text-transform: uppercase;
+	font-size: 10pt;
+	letter-spacing: 1px;
+}
+
+.y-axis-label {
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.-hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.-selected {
+	font-weight: bold;
+}
+
+.tooltip {
+	pointer-events: none;
+	position: absolute;
+	padding: 3px 11px;
+	background: #eee;
+	border-radius: 7px;
+	font-size: 11pt;
+	color: #888;
+}
+
+.serie rect.-hover {
+	stroke: #000;
+}
+
+.fraction {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.fraction span.symbol {
+	display: none;
+}
+
+.fraction span {
+	display: block;
+}
+
+.denominator {
+	border-top: thin solid #888;
+}
+
+.legend.bar text {
+	text-transform: none;
+}
+
+.-color-0 { fill: #fedf73; }
+.-color-1 { fill: #dd5e27; }
+.-color-2 { fill: #fbab18; }
+.-color-3 { fill: #7b6888; }
+.-color-4 { fill: #6cc6ba; }
+.-color-5 { fill: #658999; }
