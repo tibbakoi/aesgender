@@ -41,7 +41,7 @@ export default function($root, selector, data) {
 	let sort_by = data.columns[0]
 
 	function total(d) {
-		return sum(values(d.value))
+		return sum(values(d.value ? d.value : d))
 	}
 
 	function sort(a, b) {
@@ -77,12 +77,16 @@ export default function($root, selector, data) {
 		.attr('height', y.bandwidth())
 		.attr('transform', `translate(${scale_width}, 0)`)
 		.on('mousemove', function(d, idx) {
-			let rect = d3.select(this)
-			let key  = d3.select(this.parentNode).datum().key
+			const rect = d3.select(this)
+			const key  = d3.select(this.parentNode).datum().key
 			rect.classed('-hover', true)
 
+			const percent = d[1] - d[0]
+			const numerator = d.data[key]
+			const denominator = total(d.data)
+
 			$tip
-				.html(`<strong>${key}</strong>  ${Math.round((d[1] - d[0]) * 10000)/100}% <span class="fraction"><span class="numerator">${data[idx].value[key]}</span><span class="symbol">/</span><span class="denominator">${total(data[idx])}</span></span>`)
+				.html(`<strong>${key}</strong>  ${Math.round(percent * 10000)/100}% <span class="fraction"><span class="numerator">${numerator}</span><span class="symbol">/</span><span class="denominator">${denominator}</span></span>`)
 				.style('left', `${event.pageX + 30}px`)
 				.style('top', `${event.pageY - 30}px`)
 				.transition()

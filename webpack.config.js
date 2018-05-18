@@ -41,11 +41,10 @@ module.exports = {
 			'process.env.NODE_ENV': JSON.stringify('production')
 		}),
 	],
-	/*
-	devtool: 'inline-source-map',
+	//devtool: 'inline-source-map',
 	devServer: {
 		contentBase: path.join(__dirname, "docs"),
-		hot: true,              // Enable HMR
+		hot: false,              // Enable HMR
 		watchContentBase: true, // Needed to auto update when index.html changes
-	},*/
+	},
 }
