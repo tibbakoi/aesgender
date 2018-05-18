@@ -100,8 +100,14 @@ export default function($root, selector, data) {
 	// Axis labels
 
 	let $y_axis_labels = $g.append('g')
-		.attr('width', 200)
 		.attr('class', 'axis axis--y')
+
+	// Min width of axis
+	$y_axis_labels.append('rect')
+		.attr('width', 200)
+		.attr('fill', 'white')
+		.attr('height', 100)
+		.attr('x', -200)
 
 	$y_axis_labels
 		.attr('width', 200)
