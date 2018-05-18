@@ -11,7 +11,7 @@ export default function($root, selector, data) {
 		.insert('svg', `${selector} + *`)
 		.attr('width', w)
 		.attr('height', h)
-		.attr('preserveAspectRatio', 'xMidYMid meet')
+		.attr('preserveAspectRatio', 'xMinYMid meet')
 		
 	const g = svg.append('g')
 
