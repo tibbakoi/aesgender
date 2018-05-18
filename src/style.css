@@ -78,6 +78,14 @@ p img {
 .email::before { content: "<"; }
 .email::after { content: ">"; }
 
+footer {
+	opacity: 0.6;
+	border-top: 3px solid #ddd;
+	padding-top: 20px;
+	text-align: right;
+	font-size: 10pt;
+}
+
 svg {
 	/*width: 100%;*/
 	transform: translateZ(0);	

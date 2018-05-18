@@ -85,7 +85,7 @@ export default function($root, selector, data) {
 		.enter()
 		.append('text')
 		.attr('dy', '.35em')
-		.text(d => d.data.label)
+		.text(d => `${d.data.label} (${d.data.value})`)
 		.attr('transform', (d, idx) =>
 			`translate(${[
 				idx == 1 || idx == 3 ? radius : -radius,
