@@ -7,7 +7,7 @@ module.exports = {
 	entry: path.resolve(__dirname, 'src', 'index.js'),
 	output: {
 		filename: 'bundle.js',
-		path: path.resolve(__dirname, 'dist')
+		path: path.resolve(__dirname, 'docs')
 	},
 	// Don't bundle these into the output
 	externals: {
@@ -44,7 +44,7 @@ module.exports = {
 	/*
 	devtool: 'inline-source-map',
 	devServer: {
-		contentBase: path.join(__dirname, "dist"),
+		contentBase: path.join(__dirname, "docs"),
 		hot: true,              // Enable HMR
 		watchContentBase: true, // Needed to auto update when index.html changes
 	},*/

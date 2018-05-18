@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist; mkdir dist && cpx \"src/{index.html,style.css}\" dist && webpack",
+    "build": "rm -rf ./docs; mkdir docs && cpx \"src/{index.html,style.css}\" docs && webpack",
     "start": "webpack-dev-server --open",
-    "watch": "rm -rf ./dist; webpack && (cpx \"src/{index.html,style.css}\" dist --watch &) && npm start"
+    "watch": "rm -rf ./docs; webpack && (cpx \"src/{index.html,style.css}\" docs --watch &) && npm start"
   },
   "repository": {
     "type": "git",
