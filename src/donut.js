@@ -1,3 +1,7 @@
+import {
+	sum,
+	values
+}              from 'lodash'
 import * as d3 from 'd3'
 
 export default function($root, selector, data) {
@@ -31,6 +35,14 @@ export default function($root, selector, data) {
 	const key    = d => d.data.label
 	const labels = data.map(d => d.label)
 
+	function total(d) {
+		return sum(d.map(datum => datum.value))
+	}
+
+	let $tip = d3.select('body').append('div')
+		.attr('class', 'tooltip')
+		.style('opacity', 0)
+
 	// Slices
 
 	const slices = g
@@ -41,6 +53,24 @@ export default function($root, selector, data) {
 		.insert('path')
 		.attr('class', (d, idx) => `slice -color-${idx}`)
 		.attr('d', d => arc(d))
+		.on('mousemove', function(d, idx) {
+			d3.select(this).classed('-hover', true)
+
+			$tip
+				.html(`<strong>${d.data.label}</strong>  ${Math.round(d.value/total(data) * 100)}% <span class="fraction"><span class="numerator">${d.value}</span><span class="symbol">/</span><span class="denominator">${total(data)}</span></span>`)
+				.style('left', `${event.pageX + 30}px`)
+				.style('top', `${event.pageY - 30}px`)
+				.transition()
+				.duration(50)
+				.style('opacity', 0.9)
+		})
+		.on('mouseout', function(d) {
+			d3.select(this).classed('-hover', false)
+			$tip
+				.transition()
+				.duration(100)
+				.style('opacity', 0)
+		})
 
 	// Labels
 
