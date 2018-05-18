@@ -86,13 +86,13 @@ export default function($root, selector, data) {
 		.append('text')
 		.attr('dy', '.35em')
 		.text(d => d.data.label)
-		.attr('transform', d =>
+		.attr('transform', (d, idx) =>
 			`translate(${[
-				radius * (midAngle(d) < Math.PI ? 1 : -1),
-				outerArc.centroid(d)[1]
+				idx == 1 || idx == 3 ? radius : -radius,
+				idx == 1 || idx == 2 ? radius : -radius,
 			]})`
 		)
-		.attr('text-anchor', d => midAngle(d) < Math.PI ? 'start' : 'end')
+		.attr('text-anchor', (d, idx) => idx == 1 || idx == 3 ? 'start' : 'end')
 
 	// Label-lines
 
@@ -102,12 +102,16 @@ export default function($root, selector, data) {
 		.data(pie(data), key)
 		.enter()
 		.append('polyline')
-		.attr('points', d => [
+		.attr('points', (d, idx) => [
 			arc.centroid(d),
 			outerArc.centroid(d),
 			[
-				radius * 0.95 * (midAngle(d) < Math.PI ? 1 : -1),
-				outerArc.centroid(d)[1]
+				outerArc.centroid(d)[0],
+				idx == 1 || idx == 2 ? radius : -radius,
+			],
+			[
+				0.95* (idx == 1 || idx == 3 ? radius : -radius),
+				idx == 1 || idx == 2 ? radius : -radius,
 			]
 		])
 
