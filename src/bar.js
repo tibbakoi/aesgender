@@ -7,11 +7,11 @@ import {
 	sortBy}    from 'lodash'
 import * as d3 from 'd3'
 
-export default function($root, data) {
+export default function($root, selector, data) {
 	const w = $root.node().clientWidth
 	const h = data.length * 30
 
-	let $svg = $root.append('svg')
+	let $svg = $root.insert('svg', `${selector} + *`)
 		.attr('width', w)
 		
 	const $g = $svg.append('g')

@@ -1,10 +1,10 @@
 import * as d3 from 'd3'
 
-export default function($root, data) {
+export default function($root, selector, data) {
 	const w = $root.node().clientWidth, h = 400
 
 	const svg = $root
-		.append('svg')
+		.insert('svg', `${selector} + *`)
 		.attr('width', w)
 		.attr('height', h)
 		.attr('preserveAspectRatio', 'xMidYMid meet')

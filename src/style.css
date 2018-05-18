@@ -2,7 +2,7 @@ body {
 	margin: 50px;
 	padding: 50px;
 	font-family: 'Usual', sans-serif;
-	font-size: 13pt;
+	font-size: 12pt;
 	line-height: 1.6;
 	background: white;
 	box-shadow: 0 0 2rem 2rem #eee;
@@ -43,7 +43,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 28pt;
+	font-size: 22pt;
 }
 
 h2 {

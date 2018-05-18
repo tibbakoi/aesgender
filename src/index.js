@@ -22,15 +22,16 @@ document.addEventListener('DOMContentLoaded', _ => {
 	const $results = d3.select("#results")
 	$results.selectAll("*").remove()
 
-	$results.append('h3').text('Overall gender composition across dataset')
-	$results.append('h3').text('Gender composition across conference topics')
-	$results.append('h3').text('Gender composition across the different presentation types')
-	$results.append('h3').text('Gender composition across relative author positions in presentations')
-	$results.append('h3').text('Gender composition of single authors vs multi-authored presentations across all conferences')
+	$results.append('h3').text('Overall gender composition across dataset').attr('id', 'overall_gender_composition')
+	$results.append('h3').text('Gender composition across conference topics').attr('id', 'composition_across_topics')
+	$results.append('h3').text('Gender composition across conference years').attr('id', 'composition_across_years')
+	$results.append('h3').text('Gender composition across the different presentation types').attr('id', 'composition_across_types')
+	$results.append('h3').text('Gender composition across relative author positions in presentations').attr('id', 'composition_across_positions')
+	$results.append('h3').text('Gender composition of single authors vs multi-authored presentations across all conferences').attr('id', 'composition_author_count')
 
 	let charts = [
 		// Fig. 2 Overall gender composition across dataset.
-		donut($results, genders.map(
+		donut($results, '#overall_gender_composition', genders.map(
 			label => ({
 				label,
 				value: data.filter(d => label === d.Gender).length
@@ -38,17 +39,17 @@ document.addEventListener('DOMContentLoaded', _ => {
 		)),
 
 		// Fig 3. Gender composition of AES conference across each year, where the number on the right is the population size for each year.
-		bar($results, grouped_by_selector(data, 'Topic')),
+		bar($results, '#composition_across_topics', grouped_by_selector(data, 'Topic')),
 		// Fig. 4 Gender composition across conference topics, where the number on the right is the population size for each topic.
-		bar($results, grouped_by_selector(data, 'Year')),
+		bar($results, '#composition_across_years', grouped_by_selector(data, 'Year')),
 		// Fig 5. Gender composition across the different presentation types, where the asterisk indicates an ‘invited’ paper and number on the right is the population size for each presentation type.
-		bar($results, grouped_by_selector(data, 'Grouped Type')),
+		bar($results, '#composition_across_types', grouped_by_selector(data, 'Grouped Type')),
 		// Fig. 6 Gender composition across relative author positions in presentations where the number on the right is the population size for each author position.
-		bar($results, grouped_by_selector(
+		bar($results, '#composition_across_positions', grouped_by_selector(
 			data.filter(d => d['Inc. for author pos?'] === 'TRUE'), 'Position (relative)')),
 		// Fig. 7 Gender composition of single authors vs multi-authored presentations across all conferences, where the number on the right is the population size for each authorship type.
-		bar($results, grouped_by_selector(
-			data.filter(d => d['Inc. for sole/coauthor?'] === 'TRUE'), 'Single/multi author')),
+		bar($results, '#composition_author_count', grouped_by_selector(
+			data.filter(d => d['Inc. for single/multiauthor?'] === 'TRUE'), 'Single/multi author')),
 	]
 
 	// Responsive design
