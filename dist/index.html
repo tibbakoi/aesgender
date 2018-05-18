@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<title>AES Gender</title>
+<!-- Custom Fonts -->
+<script src="//use.typekit.net/syp6hdm.js"></script>
+<script>try{Typekit.load({ async: true })}catch(e){}</script>
+<!-- External JS libs -->
+<script src="//unpkg.com/lodash@4.17.4/lodash.min.js"></script>
+<script src="//unpkg.com/d3@4.10.0/build/d3.min.js"></script>
+<!-- Bundled JS/CSS -->
+<script src="bundle.js"></script>
+<link rel="stylesheet" href="style.css">
+<body>
+	<h1>The Impact of Gender on Conference Authorshop in Audio Engineering</h1>
+	<p>The field of audio engineering has historically been male dominated, and has thus led to a male-biased mindset within the industry. Despite evidence of an increasing number of women involved with audio engineering and high-quality home audio systems <a href="#cite_1">[1]</a>, this mindset has not changed drastically; similar beliefs are still displayed about the role of women <a href="#cite_2">[2]</a> throughout industry and academia - with anecdotal evidence of this mindset cropping up at professional conferences.</p>
+	<p>Professional associations are a useful indicator for analysing the intersection between industry and academia. One such association within the field of audio engineering is the Audio Engineering Society (AES). The AES, formed in 1948, has more than 12,000 members worldwide, and regularly organises conferences, conventions and the publication of a monthly journal. Recently, the AES has started to make attempts to combat the issues of gender diversity within audio engineering through the formation of a Diversity and Inclusion Committee, and the alignment of the British section of the AES with the UNWomen `HeForShe’ campaign.</p>
+	<p>However, the first stage in being able to address any problems is to fully characterise it. The figures below shows the distribution of author gender across AES conferences from 2012-2016, according to a number of variables of interest. An associated research paper in IEEE Transactions on Education Special Issue on Increasing the Socio-Cultural Diversity of Electrical and Computer Engineering and Related Fields, Young et al 2018, (<a href="//dx.doi.org/10.1109/TE.2018.2814613">dx.doi.org/10.1109/TE.2018.2814613</a>) describes the methodology used and findings in detail. The dataset is available at: (<a href="//dx.doi.org/10.5281/zenodo.889045">dx.doi.org/10.5281/zenodo.889045</a>).</p>
+	<ol>
+		<li>S.   Gardiner,   “Forget   High   Fidelity:   How   women   are   reclaiming record   stores,”   2017.   [Online]. Available: <a id="cite_1" href="http://mixmag.net/feature/forget-high-fidelity">http://mixmag.net/feature/forget-high-fidelity</a></li>
+		<li>J.  Delingpole,  “The  way  to  a  man’s  heart  is  through  his  speaker System,” The  Spectator, nov 2013. [Online]. Available: <a id="cite_2" href="https://www.spectator.co.uk/2013/11/small-audio-dynamite">/https://www.spectator.co.uk/2013/11/small-audio-dynamite/</a></li>
+	</ol>
+
+	<h2>How it works</h2>
+	<p>A list of authors was generated for AES conferences from 2012-2016 using the conference proceedings available online. For each author in the generated list, gender is determined via a multi-step process where self identified pronoun of the author takes priority. If this step doesn’t produce a result, several subsequent steps are employed. If no gender can be determined, the entry is labelled as ‘Unknown’.</p>
+	
+	<h2>How to use the interactive results</h2>
+	<p>Hover over the bars to see the numerical breakdown for each result. Click on the legend labels (Non-binary, Unknown, Female, Male) to re-order the results by that label.</p>
+
+	<div id="results">
+		<p>Please use a modern browser with JavaScript enabled to see the interactive results.</p>
+	</div>
+
+	<h2>Authors</h2>
+
+	<h3>Kat Young <span class="email">kaey500@york.ac.uk</span> <a class="twitter" href="//twitter.com/@percussionism">@percussionism</a></h3>
+	<p><img src="/assets/Young.jpg" alt="Photo of Kat Young" /><strong>Kat Young</strong> received the MEng (Hons) in Electronic Engineering with Music Technology from the University of York in 2015. They are currently pursuing a PhD in the same department, looking at the feasibility and robustness of near-field binaural audio using computational simulation. They were heavily involved in the society Supporting Women in Engineering at York (SWEY), having chaired for two years, and are a student member of the Audio Engineering Society.</p>
+
+	<h3>Michael Lovedee-Turner <span class="email">mjlt500@york.ac.uk</span> <a class="twitter" href="//twitter.com/@michaeljlt">@michaeljlt</a></h3>
+	<p><img src="/assets/LovedeeTurner.jpg" alt="Photo of Michael Lovedee-Turner" /><strong>Michael Lovedee-Turner</strong> received the BSc (Hons) in Audio and Recording Technology at De Montfort University (2014), and the MSc in Audio and Music Technology at the University of York (2015). They are currently a PhD student based in the Department of Electronic Engineering, University of York; investigating applications of machine hearing in room acoustic analysis and room geometry inference. Their research interests include: machine hearing, acoustic analysis and spatial audio. They are a student member of the Audio Engineering Society.</p>
+
+	<h3>Jude Brereton <span class="email">jude.brereton@york.ac.uk</span> <a class="twitter" href="//twitter.com/@judebrereton">@judebrereton</a></h3>
+	<p><img src="/assets/Brereton.jpg" alt="Photo of Jude Brereton" /><strong>Jude Brereton</strong> is a Senior Lecturer in Audio and Music Technology, Department of Electronic Engineering, University of York, focussing on acoustics, psychoacoustics, music performance analysis, and voice analysis and synthesis. Until recently she was Chair of the Departmental Equality and Diversity committee and was instrumental in achieving the ECU Athena SWAN Bronze award, which recognizes the department's commitment to gender equality. She is a UK Athena SWAN panel chair, and regularly speaks on gender equality in audio.</p>
+
+	<h3>Helena Daffern <span class="email">helena.daffern@york.ac.uk</span></h3>
+	<p><img src="/assets/Daffern.jpg" alt="Photo of Helena Daffern" /><strong>Helena Daffern</strong> is currently a Lecturer in Music Technology in the Electronic Engineering Department at the University of York. Her research focuses on voice science and acoustics, particularly singing performance, vocal pedagogy and choral singing.</p>
+
+	<h3>Other contributors</h3>
+	<p>
+		<strong>Lauren Tomasello:</strong> Department of Electronic Engineering, University of York<br />
+		<strong>Gavin Kearney:</strong> Department of Electronic Engineering, University of York<br />
+		<strong>Amelia Gully:</strong> Department of Electronic Engineering, University of York<br />
+		<strong>Rebecca Vos:</strong> Department of Electronic Engineering, University of York
+	</p>
+
+	<footer>HTML/Javascript/CSS wrangling by <a href="https://github.com/laurenkt">Lauren Tomasello</a></footer>
+</body>
