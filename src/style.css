@@ -132,7 +132,8 @@ text {
 	color: #888;
 }
 
-.serie rect.-hover {
+.serie rect.-hover,
+.slices path.slice.-hover {
 	stroke: #000;
 }
 

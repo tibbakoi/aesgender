@@ -100,9 +100,11 @@ export default function($root, selector, data) {
 	// Axis labels
 
 	let $y_axis_labels = $g.append('g')
+		.attr('width', 200)
 		.attr('class', 'axis axis--y')
 
 	$y_axis_labels
+		.attr('width', 200)
 		.call(d3.axisLeft(y))
 		.selectAll('text')
 		.attr('height', h)
@@ -171,7 +173,7 @@ export default function($root, selector, data) {
 		$svg
 			.attr('height', bbox.height)
 			.attr('viewBox', `${w-$y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height*1.1}`)
-			.attr('preserveAspectRatio', 'xMaxYMid meet')
+			.attr('preserveAspectRatio', 'xMinYMid meet')
 	
 	}
 
