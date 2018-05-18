@@ -1,5 +1,6 @@
 const path    = require('path')
 const webpack = require('webpack')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
 	entry: path.resolve(__dirname, 'src', 'index.js'),
@@ -33,6 +34,7 @@ module.exports = {
 	// Hot module reloading for CSS etc
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
+		new CopyWebpackPlugin([{from: 'src/assets/**/*', to: 'assets/[name].[ext]'}]),
 	],
 	devtool: 'inline-source-map',
 	devServer: {
