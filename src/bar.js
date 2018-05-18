@@ -8,7 +8,8 @@ import {
 import * as d3 from 'd3'
 
 export default function($root, data) {
-	const w = $root.node().clientWidth, h = data.length * 30
+	const w = $root.node().clientWidth
+	const h = data.length * 30
 
 	let $svg = $root.append('svg')
 		.attr('width', w)
@@ -169,8 +170,8 @@ export default function($root, data) {
 		const bbox = $g.node().getBBox()
 		$svg
 			.attr('height', bbox.height)
-			.attr('viewBox', `${w-$y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height}`)
-			.attr('preserveAspectRatio', 'xMidYMid meet')
+			.attr('viewBox', `${w-$y_axis_labels.node().getBBox().width} ${-h+bbox.height} ${bbox.width} ${bbox.height*1.1}`)
+			.attr('preserveAspectRatio', 'xMaxYMid meet')
 	
 	}
 
