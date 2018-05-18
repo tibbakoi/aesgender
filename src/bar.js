@@ -82,7 +82,7 @@ export default function($root, selector, data) {
 			rect.classed('-hover', true)
 
 			$tip
-				.html(`<strong>${key}</strong>  ${Math.round((d[1] - d[0]) * 100)}% <span class="fraction"><span class="numerator">${data[idx].value[key]}</span><span class="symbol">/</span><span class="denominator">${total(data[idx])}</span></span>`)
+				.html(`<strong>${key}</strong>  ${Math.round((d[1] - d[0]) * 10000)/100}% <span class="fraction"><span class="numerator">${data[idx].value[key]}</span><span class="symbol">/</span><span class="denominator">${total(data[idx])}</span></span>`)
 				.style('left', `${event.pageX + 30}px`)
 				.style('top', `${event.pageY - 30}px`)
 				.transition()

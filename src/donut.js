@@ -57,7 +57,7 @@ export default function($root, selector, data) {
 			d3.select(this).classed('-hover', true)
 
 			$tip
-				.html(`<strong>${d.data.label}</strong>  ${Math.round(d.value/total(data) * 100)}% <span class="fraction"><span class="numerator">${d.value}</span><span class="symbol">/</span><span class="denominator">${total(data)}</span></span>`)
+				.html(`<strong>${d.data.label}</strong>  ${Math.round(d.value*10000/total(data))/100}% <span class="fraction"><span class="numerator">${d.value}</span><span class="symbol">/</span><span class="denominator">${total(data)}</span></span>`)
 				.style('left', `${event.pageX + 30}px`)
 				.style('top', `${event.pageY - 30}px`)
 				.transition()
