@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist; mkdir dist && cpx src/{index.html,style.css} dist && webpack",
+    "build": "rm -rf ./dist; mkdir dist && cpx \"src/{index.html,style.css}\" dist && webpack",
     "start": "webpack-dev-server --open",
     "watch": "rm -rf ./dist; webpack && (cpx \"src/{index.html,style.css}\" dist --watch &) && npm start"
   },
