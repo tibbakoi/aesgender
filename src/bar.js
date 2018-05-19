@@ -87,8 +87,8 @@ export default function($root, selector, data) {
 
 			$tip
 				.html(`<strong>${key}</strong>  ${Math.round(percent * 10000)/100}% <span class="fraction"><span class="numerator">${numerator}</span><span class="symbol">/</span><span class="denominator">${denominator}</span></span>`)
-				.style('left', `${event.pageX + 30}px`)
-				.style('top', `${event.pageY - 30}px`)
+				.style('left', `${d3.event.pageX + 30}px`)
+				.style('top', `${d3.event.pageY - 30}px`)
 				.transition()
 				.duration(50)
 				.style('opacity', 0.9)
