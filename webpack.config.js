@@ -1,4 +1,4 @@
-const path    = require('path')
+const path = require('path')
 const webpack = require('webpack')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
@@ -35,8 +35,8 @@ module.exports = {
 	// Hot module reloading for CSS etc
 	plugins: [
 		//new webpack.HotModuleReplacementPlugin(),
-		new CopyWebpackPlugin([{from: 'src/assets/**/*', to: 'assets/[name].[ext]'}]),
-		new UglifyJSPlugin(),
+		new CopyWebpackPlugin([{ from: 'src/assets/**/*', to: 'assets/[name].[ext]' }]),
+		//new UglifyJSPlugin(),
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify('production')
 		}),
