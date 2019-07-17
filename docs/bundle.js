@@ -2857,7 +2857,7 @@ var _uniq3 = _interopRequireDefault(_uniq2);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _templateObject = _taggedTemplateLiteral(['\n\t\t\t<label class=', '>\n\t\t\t\t<input type="radio" ?checked=', ' @click=', ' />\n\t\t\t\t', '\n\t\t\t</label>\n\t\t'], ['\n\t\t\t<label class=', '>\n\t\t\t\t<input type="radio" ?checked=', ' @click=', ' />\n\t\t\t\t', '\n\t\t\t</label>\n\t\t']),
-    _templateObject2 = _taggedTemplateLiteral(['\n\t\t\t<p>Select dataset: ', ' ', '</p>\n\t\t'], ['\n\t\t\t<p>Select dataset: ', ' ', '</p>\n\t\t']);
+    _templateObject2 = _taggedTemplateLiteral(['\n\t\t\t<p>Select dataset range (inclusive): ', ' ', '</p>\n\t\t'], ['\n\t\t\t<p>Select dataset range (inclusive): ', ' ', '</p>\n\t\t']);
 
 var _d = __webpack_require__(23);
 
@@ -2904,14 +2904,14 @@ document.addEventListener('DOMContentLoaded', function (_) {
 	function update(year) {
 		create_ui_for_data(unprocessed_data[year]);
 
-		var radio = function radio(label) {
-			return (0, _litHtml.html)(_templateObject, year === label ? 'selected' : '', year === label, function (e) {
+		var radio = function radio(key, label) {
+			return (0, _litHtml.html)(_templateObject, year === key ? 'selected' : '', year === key, function (e) {
 				e.preventDefault();
-				update(label);
+				update(key);
 			}, label);
 		};
 
-		var select_data = (0, _litHtml.html)(_templateObject2, radio('2018'), radio('2019'));
+		var select_data = (0, _litHtml.html)(_templateObject2, radio('2018', "2012–2016"), radio('2019', '2012–2019'));
 
 		(0, _litHtml.render)(select_data, document.querySelector('#controls'));
 	}

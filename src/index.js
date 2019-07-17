@@ -23,18 +23,18 @@ document.addEventListener('DOMContentLoaded', _ => {
 	function update(year) {
 		create_ui_for_data(unprocessed_data[year])
 
-		const radio = (label) => html`
-			<label class=${year === label ? 'selected' : ''}>
-				<input type="radio" ?checked=${year === label} @click=${(e) => {
+		const radio = (key, label) => html`
+			<label class=${year === key ? 'selected' : ''}>
+				<input type="radio" ?checked=${year === key} @click=${(e) => {
 				e.preventDefault();
-				update(label);
+				update(key);
 			}} />
 				${label}
 			</label>
 		`
 
 		const select_data = html`
-			<p>Select dataset: ${radio('2018')} ${radio('2019')}</p>
+			<p>Select dataset range (inclusive): ${radio('2018', "2012–2016")} ${radio('2019', '2012–2019')}</p>
 		`
 
 		render(select_data, document.querySelector('#controls'))
