@@ -2263,7 +2263,7 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 2264,He,4,middle,multi,"2018 Audio Archiving, Preservation & Restoration",Audio Archiving,2018,workshop,workshop,FALSE,FALSE,not invited
 2265,He,2,middle,multi,"2018 Audio Archiving, Preservation & Restoration",Audio Archiving,2018,tutorial,workshop,FALSE,FALSE,not invited
 2266,He,3,middle,multi,2018 Music Induced Hearing Disorders,Music Induced Hearing Disorders,2018,panel,panel,FALSE,FALSE,invited
-2267,He,3,last,multi,2017 Automotive Audio,Automotive Audio,2017,paper,paper,TRUE,TRUE,not invited
+2267,He,4,last,multi,2017 Automotive Audio,Automotive Audio,2017,paper,paper,TRUE,TRUE,not invited
 2268,He,3,last,multi,2018 AVAR,Audio for VR and AR,2018,paper,paper,TRUE,TRUE,not invited
 2269,He,3,last,multi,2018 AVAR,Audio for VR and AR,2018,workshop,workshop,FALSE,FALSE,not invited
 2270,He,1,first,single,2018 AVAR,Audio for VR and AR,2018,workshop,workshop,FALSE,FALSE,not invited
@@ -2566,280 +2566,540 @@ ID,Pronoun,Position (abs),Position (relative),Single/multi author,Conference,Top
 2567,He,1,first,single,2017 Semantic Audio,Semantic Audio,2017,poster,poster,FALSE,TRUE,not invited
 2568,She,1,first,multi,2018 AVAR,Audio for VR and AR,2018,paper,paper,TRUE,TRUE,not invited
 2569,He,1,first,single,"2018 Audio Archiving, Preservation & Restoration",Audio Archiving,2018,demo,demo,FALSE,FALSE,not invited
-2570,He,6,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
-2571,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2570,He,6,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
+2571,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2572,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
-2573,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2573,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2574,She,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,keynote,keynote,FALSE,FALSE,invited
-2575,She,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2575,She,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2576,She,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2577,She,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2578,She,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2579,She,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2580,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2581,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
+2581,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
 2582,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2583,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2583,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2584,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2585,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2585,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2586,She,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,keynote,keynote,FALSE,FALSE,invited
 2587,He,6,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2588,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2589,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2590,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2591,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2592,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2593,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2591,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2592,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2593,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2594,She,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2595,She,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2596,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2597,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2596,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2597,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2598,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2599,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2600,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2601,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2601,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2602,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2603,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2604,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2605,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2603,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2604,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2605,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2606,She,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
 2607,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2608,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2609,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2608,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2609,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2610,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2611,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2611,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2612,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2613,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2614,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2613,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2614,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2615,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2616,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2616,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2617,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2618,He,7,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2619,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2618,He,7,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2619,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2620,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2621,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
-2622,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2623,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2624,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2625,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2622,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2623,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2624,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2625,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,FALSE,TRUE,not invited
 2626,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
-2627,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2628,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2627,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2628,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2629,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2630,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2630,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2631,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2632,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2633,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
 2634,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
 2635,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2636,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2636,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2637,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2638,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2638,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2639,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2640,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2641,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2640,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2641,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2642,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2643,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
-2644,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2645,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2644,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2645,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2646,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2647,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2648,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2649,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2650,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2651,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2649,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2650,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2651,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2652,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2653,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2654,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2655,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
 2656,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
-2657,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2658,He,7,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2659,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2660,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2661,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2662,He,8,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2663,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2664,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2657,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2658,He,7,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2659,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2660,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2661,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2662,He,8,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2663,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2664,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2665,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2666,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2667,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2668,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
-2669,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2670,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2669,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2670,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2671,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2672,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2673,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2674,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2675,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2674,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2675,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2676,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2677,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2678,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2677,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2678,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2679,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2680,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
-2681,He,6,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2682,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2681,He,6,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2682,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2683,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2684,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2685,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2686,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2684,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2685,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2686,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2687,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2688,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2689,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2690,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2691,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2692,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2693,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2694,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2695,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2696,She,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2692,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2693,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2694,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2695,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2696,She,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2697,She,6,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2698,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2699,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
+2699,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
 2700,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2701,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2702,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
-2703,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2703,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2704,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2705,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2706,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2707,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2707,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2708,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
 2709,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2710,She,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2711,She,6,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2711,She,6,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2712,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2713,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2714,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2715,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2716,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2713,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2714,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2715,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2716,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2717,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2718,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2719,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2720,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
-2721,He,8,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
+2719,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2720,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
+2721,He,8,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
 2722,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2723,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2723,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2724,He,6,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2725,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2726,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2727,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2725,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2726,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2727,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2728,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2729,They,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2730,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2731,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2729,They,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2730,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2731,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2732,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2733,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
 2734,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2735,She,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2736,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2737,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2736,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2737,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2738,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2739,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2740,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2741,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2740,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2741,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2742,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2743,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2743,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2744,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2745,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2746,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2746,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2747,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2748,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2749,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2750,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2750,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2751,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2752,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
-2753,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2753,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2754,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2755,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2755,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2756,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2757,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
 2758,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2759,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2760,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2761,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
+2759,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2760,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2761,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
 2762,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2763,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2763,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2764,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2765,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2766,Information Unavailable,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2766,Information Unavailable,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2767,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2768,She,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2769,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2769,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2770,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2771,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2771,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2772,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
-2773,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2774,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2775,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2773,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2774,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2775,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2776,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2777,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,keynote,keynote,FALSE,FALSE,invited
 2778,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2779,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2779,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2780,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2781,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2782,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2783,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2784,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2785,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2786,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2787,He,7,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
-2788,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2781,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2782,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2783,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2784,He,5,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2785,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2786,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2787,He,7,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
+2788,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2789,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2790,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2791,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2792,She,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2790,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2791,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2792,She,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2793,She,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2794,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2795,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,demo,demo,FALSE,FALSE,not invited
 2796,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2797,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2798,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2799,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2798,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2799,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2800,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2801,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2802,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2803,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2802,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2803,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2804,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2805,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2806,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2807,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2808,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2809,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2806,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2807,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2808,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2809,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2810,He,6,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2811,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2812,They,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2813,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2814,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2811,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,FALSE,TRUE,not invited
+2812,They,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2813,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2814,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2815,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2816,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2817,She,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2818,She,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2819,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2816,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2817,She,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2818,She,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2819,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2820,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2821,He,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2822,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2823,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2824,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2825,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2823,He,4,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2824,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,FALSE,TRUE,not invited
+2825,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2826,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2827,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2827,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2828,He,3,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2829,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2830,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2831,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2832,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2833,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2834,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2830,He,2,last,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2831,He,5,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2832,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2833,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2834,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2835,He,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
 2836,He,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,FALSE,TRUE,not invited
-2837,Information Unavailable,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
-2838,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2837,Information Unavailable,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2838,He,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2839,She,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2840,She,2,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
-2841,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,Sponsor presentation,invited speaker,FALSE,FALSE,invited
+2841,He,3,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,sponsor presentation,invited speaker,FALSE,FALSE,invited
 2842,Information Unavailable,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
 2843,She,4,middle,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
 2844,She,1,first,single,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
-2845,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,panel,panel,FALSE,FALSE,invited
+2845,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,paper,paper,TRUE,TRUE,not invited
 2846,She,1,first,multi,2019 Immersive and Interactive Audio,Immersive and Interactive Audio,2019,poster,poster,TRUE,TRUE,not invited
+2847,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2848,He,2,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2849,He,3,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2850,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2851,He,6,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2852,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2853,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2854,He,7,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2855,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2856,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2857,He,2,last,multi,2019 Automotive Audio,Automotive Audio,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+2858,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,tutorial,workshop,FALSE,FALSE,not invited
+2859,She,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2860,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,paper,paper,FALSE,TRUE,not invited
+2861,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+2862,He,5,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2863,He,3,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2864,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2865,He,3,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2866,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2867,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,keynote,keynote,FALSE,FALSE,invited
+2868,He,6,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2869,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2870,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2871,He,9,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2872,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2873,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,tutorial,workshop,FALSE,FALSE,not invited
+2874,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2875,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2876,Information Unavailable,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2877,Information Unavailable,1,first,single,2019 Audio Forensics,Audio Forensics,2019,workshop,workshop,FALSE,FALSE,not invited
+2878,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2879,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2880,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2881,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,paper,paper,FALSE,TRUE,not invited
+2882,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,keynote,keynote,FALSE,FALSE,invited
+2883,He,5,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2884,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2885,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,paper,paper,FALSE,TRUE,not invited
+2886,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2887,Information Unavailable,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2888,She,1,first,single,2019 Headphone Technology,Headphone Technology,2019,keynote,keynote,FALSE,FALSE,invited
+2889,He,2,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2890,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,workshop,workshop,FALSE,FALSE,not invited
+2891,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2892,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2893,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2894,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,paper,paper,FALSE,TRUE,not invited
+2895,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2896,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,tutorial,workshop,FALSE,FALSE,not invited
+2897,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2898,She,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2899,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2900,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2901,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2902,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2903,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2904,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2905,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2906,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2907,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2908,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2909,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2910,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2911,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2912,He,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2913,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+2914,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2915,He,8,last,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2916,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2917,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2918,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2919,He,3,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2920,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2921,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2922,She,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2923,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2924,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2925,He,5,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2926,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2927,He,6,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2928,He,3,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2929,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2930,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2931,He,5,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2932,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2933,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,keynote,keynote,FALSE,FALSE,invited
+2934,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2935,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2936,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2937,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,paper,paper,FALSE,TRUE,not invited
+2938,Information Unavailable,1,first,single,2019 Headphone Technology,Headphone Technology,2019,paper,paper,FALSE,TRUE,not invited
+2939,Information Unavailable,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2940,He,8,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2941,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2942,He,2,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2943,He,6,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2944,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2945,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2946,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+2947,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2948,He,4,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2949,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2950,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2951,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2952,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2953,He,7,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2954,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
+2955,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,invited paper,invited paper,FALSE,TRUE,invited
+2956,He,7,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2957,He,3,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2958,He,3,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2959,He,5,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2960,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2961,He,3,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2962,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2963,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+2964,He,3,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2965,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2966,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,paper,paper,FALSE,TRUE,not invited
+2967,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,keynote,keynote,FALSE,FALSE,invited
+2968,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,keynote,keynote,FALSE,FALSE,invited
+2969,She,3,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2970,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2971,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,paper,paper,FALSE,TRUE,not invited
+2972,She,5,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2973,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2974,He,4,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2975,He,2,last,multi,2019 Automotive Audio,Automotive Audio,2019,workshop,workshop,FALSE,FALSE,not invited
+2976,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,keynote,keynote,FALSE,FALSE,invited
+2977,He,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2978,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+2979,She,4,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2980,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2981,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2982,He,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2983,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2984,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2985,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2986,He,7,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+2987,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2988,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2989,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2990,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2991,Information Unavailable,1,first,single,2019 Automotive Audio,Automotive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
+2992,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+2993,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+2994,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2995,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+2996,He,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2997,He,4,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+2998,He,3,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+2999,He,5,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3000,He,2,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3001,He,6,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3002,He,5,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3003,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3004,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3005,He,3,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3006,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+3007,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3008,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,keynote,keynote,FALSE,FALSE,invited
+3009,He,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3010,He,3,middle,multi,2017 Automotive Audio,Automotive Audio,2017,paper,paper,TRUE,TRUE,not invited
+3011,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3012,She,1,first,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3013,She,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3014,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3015,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3016,He,4,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3017,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3018,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3019,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3020,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3021,He,2,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3022,He,3,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3023,He,3,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3024,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3025,He,3,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3026,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+3027,She,5,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3028,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3029,He,6,last,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3030,Information Unavailable,2,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3031,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,keynote,keynote,FALSE,FALSE,invited
+3032,He,4,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3033,She,5,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3034,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3035,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3036,She,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3037,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3038,He,5,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3039,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3040,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3041,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3042,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3043,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3044,She,4,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3045,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,workshop,workshop,FALSE,FALSE,not invited
+3046,He,3,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3047,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,paper,paper,FALSE,TRUE,not invited
+3048,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3049,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,workshop,workshop,FALSE,FALSE,not invited
+3050,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,invited paper,invited paper,FALSE,TRUE,invited
+3051,He,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3052,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3053,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3054,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3055,He,3,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3056,Information Unavailable,4,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3057,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3058,He,3,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3059,She,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3060,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3061,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,sponsor talk,invited speaker,FALSE,FALSE,invited
+3062,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3063,He,5,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3064,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3065,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3066,They,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3067,They,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3068,They,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3069,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3070,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3071,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3072,He,5,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3073,He,3,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3074,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3075,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3076,He,3,last,multi,2019 Audio Forensics,Audio Forensics,2019,workshop,workshop,FALSE,FALSE,not invited
+3077,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3078,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,paper,paper,FALSE,TRUE,not invited
+3079,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,paper,paper,FALSE,TRUE,not invited
+3080,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,poster,poster,FALSE,TRUE,not invited
+3081,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3082,He,1,first,single,2019 Automotive Audio,Automotive Audio,2019,tutorial,workshop,FALSE,FALSE,not invited
+3083,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3084,He,4,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3085,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3086,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3087,He,2,middle,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3088,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3089,He,6,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3090,He,8,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3091,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3092,He,2,last,multi,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3093,Information Unavailable,1,first,single,2019 Headphone Technology,Headphone Technology,2019,demo,demo,FALSE,FALSE,not invited
+3094,He,1,first,single,2019 Audio Forensics,Audio Forensics,2019,keynote,keynote,FALSE,FALSE,invited
+3095,He,2,middle,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3096,He,2,middle,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3097,He,3,middle,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3098,He,2,last,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3099,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,panel,panel,FALSE,FALSE,invited
+3100,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3101,He,1,first,single,2019 Headphone Technology,Headphone Technology,2019,keynote,keynote,FALSE,FALSE,invited
+3102,He,3,middle,multi,2019 Headphone Technology,Headphone Technology,2019,poster,poster,TRUE,TRUE,not invited
+3103,He,4,last,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
+3104,He,1,first,multi,2019 Automotive Audio,Automotive Audio,2019,paper,paper,TRUE,TRUE,not invited
+3105,He,5,last,multi,2019 Audio Forensics,Audio Forensics,2019,paper,paper,TRUE,TRUE,not invited
+3106,He,1,first,multi,2019 Headphone Technology,Headphone Technology,2019,paper,paper,TRUE,TRUE,not invited
